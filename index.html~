@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<title>Page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<header class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="active navbar-brand" href="#">Project name</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Рейтинги НПФ</a></li>
+            <li><a href="#">Лучшие НПФ</a></li>
+            <li><a href="#">О пенсии</a></li>
+            <li><a href="#">Калькулятор пенсии</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right hidden-sm">
+            <li></li>
+            <li><p><i class="fa fa-phone"></i>8 800 505-43-05</p></li>
+            <li class="active"><button type="button" class="btn btn-default btn-sm btn-block color-secondary-2-1"> Заказать звонок </button></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>	
+	</header>	
+	<section class="color-primary-0" id="pilot">
+		<div class="container">
+			<div class="col-md-6">
+				<h1>Пенсионное страхование <br/>
+				<small>
+				Как выбрать негосударственный пенсионный фонд 
+				для эффективного управления накопительной частью пенсии?
+				</small>
+				</h1>
+				<a type="button" class="btn btn-default btn-lg color-secondary-2-1"> Узнать будущую пенсию </a>
+			</div>
+		</div>	
+	</section>
+	<section>
+		<div class="container">
+			<h3 class="text-center">Приемущества НПФ <br/>
+			<small>О приемуществах НПФ в целом коротко одним предложением</small>
+			</h3>
+			<div class="row">
+				<div class="col-md-4 col-sm-6">
+					<div class="talkbubble">
+						<div id="talkbubble"><i class="fa fa-money"></i></div>
+						<h4 class="text-center">
+						Первое
+						</h4>				
+						<p class="text-center">
+						Приемущество которое здесь
+						нужно описать одним предложением
+						</p>
+					</div>
+				</div>	
+				<div class="col-md-4 col-sm-6">
+					<div class="talkbubble">
+						<div id="talkbubble"><i class="fa fa-key"></i></div>
+						<h4 class="text-center">
+						Второе
+						</h4>				
+						<p class="text-center">
+						Приемущество которое здесь
+						нужно описать одним предложением
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="talkbubble">
+						<div id="talkbubble"><i class="fa fa-thumbs-o-up"></i></div>
+						<h4 class="text-center">
+						Третье
+						</h4>				
+						<p class="text-center">
+						Приемущество которое здесь
+						нужно описать одним предложением
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="talkbubble">
+						<div id="talkbubble"><i class="fa fa-info-circle"></i></div>
+						<h4 class="text-center">
+						Четвертое
+						</h4>				
+						<p class="text-center">
+						Приемущество которое здесь
+						нужно описать одним предложением
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="talkbubble">
+						<div id="talkbubble"><i class="fa fa-paper-plane-o"></i></div>
+						<h4 class="text-center">
+						Пятое
+						</h4>				
+						<p class="text-center">
+						Приемущество которое здесь
+						нужно описать одним предложением
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="talkbubble">
+						<div id="talkbubble"><i class="fa fa-shield"></i></div>
+						<h4 class="text-center">
+						Шестое
+						</h4>				
+						<p class="text-center">
+						Приемущество которое здесь
+						нужно описать одним предложением
+						</p>
+					</div>
+				</div>
+			</div>		
+		</div>
+	</section>
+	<section class="color-secondary-1-2">
+		<div class="container">
+		</div>
+	</section>
+<footer>
+</footer>
+</body>
+</html>

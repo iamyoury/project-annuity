@@ -1,0 +1,95 @@
+section, header, nav {
+	width: 100%;
+}
+section {
+	padding-bottom: 48px;
+	padding-top: 48px;
+}
+h1 {
+	font-size: 3em;
+	margin-bottom: 48px;
+}
+.color-primary-0 { background-color: #99CCCC;}	
+.color-primary-1 { background-color: #F2FBFB; }
+.color-primary-2 { color: #CAE9E9; }
+.color-primary-4 { background-color: #3E8787; color: #fff; }
+.color-primary-3 { color: #022F32; }
+
+.color-secondary-1-0 { background-color: #FFEABF; }	
+.color-secondary-1-1 { background-color: #FFFCF6; }
+.color-secondary-1-2 { background-color: #FFF4DE; }
+.color-secondary-1-3 { color: #FFDE9C; }
+.color-secondary-1-4 { color: #E1B967; }
+
+.color-secondary-2-0 { background-color: #FFA19C; color: #fff; }
+.color-secondary-2-1 { background-color: #FF7871; color: #fff; }
+.color-secondary-2-2 { background-color: #EE514A; color: #fff; }
+
+.navbar-default {
+	background-color: rgba(255,255,255,0.9);
+}
+.nav a {
+	float: left;
+	line-height: 30px;
+}
+.nav a:hover {
+	color: #3E8787;
+	box-shadow: inset 0px 2px 0px #99CCCC;
+}
+.nav li.active a {
+	box-shadow: inset 0px 2px 0px #99CCCC;
+	color: #3E8787;
+}
+#pilot {
+	width: 100%;
+	padding-top: 96px;
+	padding-bottom: 48px;
+	height: 548px;
+	background-image: url(/home/out/Документы/project/img/5.jpg);
+	background-size: cover;
+	background-position: center center;
+}
+header p {
+	font-size: 1.5em;
+	line-height: 50px;
+	padding: 0;
+	margin: 0;
+}
+header .btn {
+	margin: 10px;
+}
+header i {
+	margin-right: 5px;
+	color: #777;
+}
+#talkbubble {
+   width: 200px;
+   height: 150px;
+   background: #99CCCC;
+   position: relative;
+   -moz-border-radius:    5px;
+   -webkit-border-radius: 5px;
+   border-radius:         5px;
+   text-align: center;
+   color: #fff;
+   margin: auto;
+   margin-bottom: 30px;
+}
+#talkbubble:before {
+   content:"";
+   position: absolute;
+   right: 80px;
+   top: 100%;
+   width: 0;
+   height: 0;
+   border-right: 20px solid transparent;
+   border-top: 26px solid #99CCCC;
+   border-left: 20px solid transparent;
+}
+#talkbubble i {
+	font-size: 5em;
+	line-height: 150px;
+}
+.talkbubble {
+	padding: 20px;
+}
