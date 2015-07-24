@@ -1,0 +1,254 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<title>Page</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<header class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="active navbar-brand" href="index.html">Project name</a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="about.html">О пенсии</a></li>
+            <li><a href="rating.html">Рейтинги НПФ</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right hidden-sm">
+            <li><p><i class="fa fa-phone"></i>8 800 505-43-05</p></li>
+            <li><div class="col-md-12"><button type="button" class="btn btn-default btn-sm btn-block color-secondary-2-1"> Заказать звонок </button></div></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>	
+	</header>
+	<section class="color-primary-2" id="rating">
+		<div class="screen">
+			<div class="container">
+				<div class="col-md-6">
+					<h1>Выбор НПФ<br/>
+					<small class="hidden-xs">
+					Как выбрать негосударственный пенсионный фонд 
+					для эффективного управления накопительной частью пенсии?
+					</small>
+					</h1>
+				</div>
+			</div>
+		</div>		
+	</section>
+	<section>
+		<div class="container">
+			<div class="row">
+				<h3 class="text-center">Как выбирать НПФ</h3>
+				<div class="col-md-6">
+				<p class="text-justify">При инвестировании Ваших пенсионных накоплений негосударственный 
+				пенсионный фонд выбирает несколько управляющих компаний. Это, во-первых, 
+				позволяет более эффективно инвестировать пенсионные накопления клиентов, 
+				а во-вторых, существенно снижать риски инвестирования. 
+				</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	
+	<!-- 
+	<section>
+		<div class="container">
+			<h3 class="text-center">Лучшие НПФ</h3>
+			<div class="row text-center">
+			    <div class="col-md-3 col-sm-6">
+			      <ul class="pricing-table list-unstyled">
+			        <li class="title color-primary-3"><h4>Газфонд</h4></li>
+			        <li class="bullet-item"> <small> Объём накоплений</small> 61,600,124,000 р.</li>
+			        <li class="bullet-item"> <small> Надежность </small> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></li>
+			        <li class="bullet-item"> <small> Доля рынка </small> 5,61%</li>
+			        <li class="bullet-item"> <small> Среднегодовая доходность </small> 8,54%</li>
+			        <li class="button-item"><a href="#">Стать клиентом</a></li>
+			      </ul>
+			    </div>
+			    <div class="col-md-3 col-sm-6">
+			      <ul class="pricing-table list-unstyled">
+			        <li class="title color-primary-3"><h4>Европейский <br/>пенсионный фонд</h4></li>
+			        <li class="bullet-item">	<small> Объём накоплений</small> 10,331,000,000 р.</li>
+			        <li class="bullet-item"> <small> Надежность </small> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i> </li>
+			        <li class="bullet-item"> <small> Доля рынка </small> 1,38%</li>
+			        <li class="bullet-item"> <small> Среднегодовая доходность </small>12,43%</li>
+			        <li class="button-item"><a href="#">Стать клиентом</a></li>
+			      </ul>
+			    </div>
+			    <div class="col-md-3 col-sm-6">
+			      <ul class="pricing-table list-unstyled">
+			        <li class="title color-primary-3"><h4>Национальный НПФ</h4></li>
+			        <li class="bullet-item"> <small> Объём накоплений</small> 13,758,870,64 р.</li>
+			        <li class="bullet-item"> <small> Надежность </small> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></li>
+			        <li class="bullet-item"> <small> Доля рынка </small> 1,20%</li>
+			        <li class="bullet-item"> <small> Среднегодовая доходность </small></li>
+			        <li class="button-item"><a href="#">Стать клиентом</a></li>
+			      </ul>
+			    </div>
+			    <div class="col-md-3 col-sm-6">
+			      <ul class="pricing-table list-unstyled">
+			        <li class="title color-primary-3"><h4>Солнце. Жизнь. Пенсии</h4></li>
+			        <li class="bullet-item"> <small> Объём накоплений</small>  34,322,861,61 р.</li>
+			        <li class="bullet-item"> <small> Надежность </small> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></li>
+			        <li class="bullet-item"> <small> Доля рынка </small>2,99%</li>
+			        <li class="bullet-item"> <small> Среднегодовая доходность </small></li>
+			        <li class="button-item"><a href="#">Стать клиентом</a></li>
+			      </ul>
+			    </div>
+			</div>
+	</section>
+
+	-->
+	<section>
+		<div class="container">
+			<h3 class="text-center">Рейтинги НПФ <br/>
+			<small>
+			Список негосударственных пенсионных фондов. Выберите лучший НПФ по доходности и по рейтингу надежности.
+			</small>
+			</h3>
+			<div class="table-responsive">
+				<table class="table table-hover">
+					<thead>
+						<tr>
+							<td> Название  </td>
+							<td> Надежность <i class="fa fa-chevron-down"></i></td>
+							<td> Объём накоплений </td>
+							<td> Среднегодовая доходность </td>
+							<td> </td>
+						</tr>
+					</thead>
+					<tbody>	
+						<tr>
+		    				<td>Газфонд</td>
+		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
+		    				<td>61,600,124,000 р.</td>
+		    				<td>9.19%</td>
+		    				<td><a href="#"> Стать клиентом </a></td>
+		  				</tr>
+						<tr>
+		    				<td>Европейский пенсионный фонд</td>
+		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></td>
+		    				<td>10,331,000,000 р.</td>
+		    				<td>14.27%</td>
+		    				<td><a href="#"> Стать клиентом </a></td>
+		  				</tr>
+		  				<tr>
+		    				<td>Национальный НПФ</td>
+		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
+		    				<td>11,569,600,000 р.</td>
+		    				<td>10.78%</td>
+		    				<td><a href="#"> Стать клиентом </a></td>
+		  				</tr>
+		  				<tr>
+		    				<td>Солнце. Жизнь. Пенсии</td>
+		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></td>
+		    				<td>27,773,100,000 р.</td>
+		    				<td>9.09%</td>
+		    				<td><a href="#"> Стать клиентом </a></td>
+		  				</tr>
+		  				<tr>
+		    				<td>КИТ Финанс НПФ</td>
+		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
+		    				<td>48,461,400,000 р.</td>
+		    				<td>8.36%</td>
+		    				<td><a href="#"> Стать клиентом </a></td>
+		  				</tr>
+		  				<tr>
+		    				<td>КИТ Финанс НПФ</td>
+		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
+		    				<td>48,461,400,000 р.</td>
+		    				<td>8.36%</td>
+		    				<td><a href="#"> Стать клиентом </a></td>
+		  				</tr>
+		  				<tr>
+		    				<td>КИТ Финанс НПФ</td>
+		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
+		    				<td>48,461,400,000 р.</td>
+		    				<td>8.36%</td>
+		    				<td><a href="#"> Стать клиентом </a></td>
+		  				</tr>
+		  				<tr>
+		    				<td>КИТ Финанс НПФ</td>
+		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
+		    				<td>48,461,400,000 р.</td>
+		    				<td>8.36%</td>
+		    				<td><a href="#"> Стать клиентом </a></td>
+		  				</tr>
+		  				<tr>
+		    				<td>КИТ Финанс НПФ</td>
+		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
+		    				<td>48,461,400,000 р.</td>
+		    				<td>8.36%</td>
+		    				<td><a href="#"> Стать клиентом </a></td>
+		  				</tr>
+		  				<tr>
+		    				<td>КИТ Финанс НПФ</td>
+		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
+		    				<td>48,461,400,000 р.</td>
+		    				<td>8.36%</td>
+		    				<td><a href="#"> Стать клиентом </a></td>
+		  				</tr>
+		  				<tr>
+		    				<td>КИТ Финанс НПФ</td>
+		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
+		    				<td>48,461,400,000 р.</td>
+		    				<td>8.36%</td>
+		    				<td><a href="#"> Стать клиентом </a></td>
+		  				</tr>
+		  				<tr>
+		    				<td>КИТ Финанс НПФ</td>
+		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
+		    				<td>48,461,400,000 р.</td>
+		    				<td>8.36%</td>
+		    				<td><a href="#"> Стать клиентом </a></td>
+		  				</tr>
+		  			</tbody>
+				</table>
+			</div>	
+		</div>
+	</section>
+	<footer class="color-primary-3">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					 <h4 class="text-uppercase">Немного о нас</h4>
+					<p>
+					© 2015 ОАО «ВЫБОР НПФ» <br/> Независимый сайт по выбору пенсионного фонда
+					</p>
+				</div>
+				<div class="col-md-4">
+					 <h4 class="text-uppercase">Поговори с нами</h4>
+					<ul class="list-unstyled">
+						<li><i class="fa fa-phone"> 8 800 505-43-05</i></li>
+						<li><i class="fa fa-skype"> vibor-npf</i> </li>
+						<li><i class="fa fa-envelope-o"><a href="mailto:#"> vibor-npf@gmail.com</a></i></li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					 <h4 class="text-uppercase">Не забудь рассказать</h4>
+					<ul class="list-unstyled">
+						<li><a href="#"><i class="fa fa-vk share"> В контакте</i> </a></li>
+						<li><a href="#"><i class="fa fa-facebook share"> Facebook</i> </a></li>
+						<li><a href="#"><i class="fa fa-twitter share"> Twitter</i> </a></li>
+						<li><a href="#"><i class="fa fa-google-plus share"> Google+</i> </a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="row">
+				<h4>© 2015 ОАО «ВЫБОР НПФ»</h4>
+			</div>
+		</div>
+	</footer>	
+</body>
