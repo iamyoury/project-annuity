@@ -1,0 +1,298 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<title> Анкета </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<section id="anketa">
+		<div class="container">
+			<h2 class="text-center"> Анкета для заявки на НПФ </h2>		
+		</div>
+	</section>
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 center-block">
+				<div style="padding: 10px; border-bottom: 1px dotted #6699cc; border-top: 1px dotted #6699cc; margin-bottom: 20px;">
+					<p style="padding: 0; margin: 0;" >
+					Если Вы уже определились с выбором НПФ, то для ускорения процедуры составления договора внимательно и без ошибок заполните все поля.
+					</p>
+				</div>
+				</div>
+			</div>		
+		</div>	
+	</section>
+	<section>
+		<div class="container">
+				
+			<div class="row">
+				<div class="col-md-6">
+					<div class="form-head">
+						<div class="box-head">
+						<span> Общие сведения </span>
+					</div>
+					</div>
+				
+						
+						<div class="form-title">Фамилия<span>*</span></div>
+						<div class="input-field">
+							<input class="form-control" type="text" name="lastName" value="" required />
+						</div>
+				
+						<div>Имя<span>*</span></div>
+						<div class="input-field">
+							<input class="form-control" type="text" name="firstName" value="" required />
+						</div>
+				
+						<div >Отчество<span>*</span></div>
+						<div class="input-field">
+							<input class="form-control" type="text" name="middleName" value="" required />
+						</div>
+				
+				</div>
+				<div class="col-md-6">
+					<div class="form-head ">
+						<div class="box-head">
+							<span> Общие сведения </span>
+						</div>
+						<div class="checkbox">
+							<input type="checkbox" name="namesMatch" id="namesMatch" value=" (отмечено) " class="hand" />
+							<label for="namesMatch">Я менял(а) свои данные</label>
+						</div>
+					</div>
+				
+
+						
+				
+							<div>Фамилия при рождении<span>*</span></div>										
+							<div class="input-field">
+								<input class="form-control" type="text" name="birthLastName" value="" readonly disabled/>
+							</div>
+				
+							<div>Имя при рождении<span>*</span></div>		
+							<div class="input-field">
+								<input class="form-control" type="text" name="birthFirstName" value="" readonly disabled/>
+							</div>
+				
+							<div>Отчество при рождении<span>*</span></div>		
+							<div class="input-field">
+								<input class="form-control" type="text" name="birthMiddleName" value="" readonly disabled/>
+							</div>
+					
+				</div>			
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div >Дата рождения<span>*</span></div>
+						<div class="input-field">
+							<input class="form-control" type="text" name="birthDate" value="" required />
+						</div>
+						
+						<div >Пол<span>*</span></div>
+						<div class="input-field">
+							<select class="form-control" name="gender" required>
+								<option value="">Не указан</option>
+								<option value="Мужской">Мужской</option>
+								<option value="Женский">Женский</option>
+							</select>
+						</div>
+						
+						<div>Место рождения (указанное в СНИЛС)<span>*</span></div>
+						<div class="input-field">
+							<input class="form-control" type="text" name="birthLocation" value="" required />
+						</div>
+						
+						<div >Гражданство<span>*</span></div>
+						<div class="input-field">
+							<input class="form-control" type="text" name="citizenship" value="" required />
+						</div>
+						
+						<div >Номер страхового свидетельства обязательного пенсионного страхования<span>*</span></div>
+						<div class="input-field">
+							<input class="form-control" type="text" name="socialNumber" value="" required />
+						</div>
+				</div>			
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="copy">
+						<div class="box-head">
+							<span> Паспортные данные </span>
+						</div>
+						<div>Серия<span>*</span></div>
+						<div class="input-field">
+							<input class="form-control" type="text" name="passportSerial" value="" required />
+						</div>
+						
+						<div >Номер<span>*</span></div>
+						<div class="input-field">
+							<input class="form-control" type="text" name="passportNumber" value="" required />
+						</div>
+						
+						<div >Код подразделения<span>*</span></div>
+						<div class="input-field">
+							<input class="form-control" type="text" name="passportCode" value="" required />
+						</div>
+						
+						<div>Дата выдачи<span>*</span></div>
+						<div class="input-field">
+							<input class="form-control" type="text" name="passportDate" value="" required />
+						</div>
+						
+						<div >Кем выдан<span>*</span></div>									
+						<div class="input-field">
+							<input class="form-control" type="text" name="passportIssued" value="" required />
+						</div>
+					</div>	
+				</div>		
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="copy">
+						<div class="form-head">
+							<div class="box-head">
+								<span> Адрес регистрации </span>
+							</div>
+						</div>
+						<div >Индекс<span>*</span></div>
+						<div class="input-field">
+							<input class="form-control" type="text" name="addressIndex" value="" required />
+						</div>
+				
+						<div >Субъект РФ<span>*</span></div>
+						<div class="input-field">
+							<input class="form-control" type="text" name="addressRegion" value="" required />
+						</div>
+				
+						<div >Район</div>
+						<div class="input-field">
+							<input class="form-control" type="text" name="addressDistrict" value=""/>
+						</div>
+				
+						<div >Населенный пункт<span>*</span></div>		
+						<div class="input-field">
+							<input class="form-control" type="text" name="addressCity" value="" required />
+						</div>
+				
+						<div >Улица<span>*</span></div>
+						<div class="input-field">
+							<input class="form-control" type="text" name="addressStreet" value="" required />
+						</div>
+				
+						<div >Дом<span>*</span></div>
+						<div class="input-field">
+							<input class="form-control" type="text" name="addressHouse" value="" required />
+						</div>
+				
+						<div >Корпус</div>
+						<div class="input-field">
+							<input class="form-control" type="text" name="addressBlock" value=""/>
+						</div>
+				
+						<div >Квартира<span>*</span></div>		
+						<div class="input-field">
+							<input class="form-control" type="text" name="addresFlat" value="" required />
+						</div>					
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="copy">
+						<div class="form-head">
+							<div class="box-head">
+								<span> Адрес фактического проживания </span>
+							</div>
+							<div class="checkbox">
+								<input type="checkbox" name="addressMatch" id="addressMatch" value=" (отмечено) " class="hand" checked />
+								<label for="addressMatch" class="hand">Совпадает с адресом регистрации</label>
+							</div>
+						</div>
+						<div >Индекс<span>*</span></div>
+						<div class="input-field">
+							<input class="form-control" type="text" name="addressIndex" value="" required disabled />
+						</div>
+				
+						<div >Субъект РФ<span>*</span></div>
+						<div class="input-field">
+							<input class="form-control" type="text" name="addressRegion" value="" required disabled />
+						</div>
+				
+						<div >Район</div>
+						<div class="input-field">
+							<input class="form-control" type="text" name="addressDistrict" value="" disabled />
+						</div>
+				
+						<div >Населенный пункт<span>*</span></div>		
+						<div class="input-field">
+							<input class="form-control" type="text" name="addressCity" value="" required disabled />
+						</div>
+				
+						<div >Улица<span>*</span></div>
+						<div class="input-field">
+							<input class="form-control" type="text" name="addressStreet" value="" required disabled />
+						</div>
+				
+						<div >Дом<span>*</span></div>
+						<div class="input-field">
+							<input class="form-control" type="text" name="addressHouse" value="" required disabled />
+						</div>
+				
+						<div >Корпус</div>
+						<div class="input-field">
+							<input class="form-control" type="text" name="addressBlock" value="" disabled />
+						</div>
+				
+						<div >Квартира<span>*</span></div>		
+						<div class="input-field">
+							<input class="form-control" type="text" name="addresFlat" value="" required disabled />
+						</div>					
+					</div>
+				</div>				
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="copy">
+						<div class="box-head">
+							<span> Контактные данные  </span>
+						</div>
+						<div>Домашний телефон</div>
+						<div class="input-field">
+							<input class="form-control" type="text" name="contactHomePhone" value=""/>
+						</div>
+						
+						<div>Мобильный телефон<span>*</span></div>		
+						<div class="input-field">
+							<input class="form-control" type="text" name="contactMobilePhone" value="" required />
+						</div>
+						
+						<div>E-mail<span>*</span></div>
+						<div class="input-field">
+							<input class="form-control" type="text" name="contactEmail" value="" required />
+						</div>
+					</div>
+				</div>			
+			</div>
+		</div>	
+	</section>
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="checkbox color-background-2" style="padding: 20px; margin-top:10px;">
+						<input type="checkbox" id=agree class="hand" checked> <label for=agree class="hand">Согласен(а) на обработку предоставленных мною персональных данных в соответствии со ст. 9 Федерального закона от 27.07.2006 г. No152-ФЗ «О персональных данных»</label>				
+					</div>
+					
+						<div class="b-box center-block" style="margin-top:20px;">
+							<button class="btn btn-primary btn-lg"> Оставить заявку </button>				
+						</div>
+					
+				</div>
+			</div>		
+		</div>	
+	</section>
+</body>

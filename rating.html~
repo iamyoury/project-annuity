@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="ru">
 <head>
-	<title>Page</title>
+	<title> Рейтинги НПФ </title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
@@ -19,47 +19,36 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="active navbar-brand" href="index.html">Project name</a>
+          <a class="active navbar-brand" href="index.html"> <div class="brand-logo"></div> </a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
-            <li><a href="about.html">О пенсии</a></li>
+          	<li><a href="index.html"> Главная </a></li>
+          	<li><a href="about.html">О пенсии</a></li>
             <li><a href="rating.html">Рейтинги НПФ</a></li>
+            <li><a href="calculator.html">Калькулятор</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right hidden-sm">
-            <li><p><i class="fa fa-phone"></i>8 800 505-43-05</p></li>
-            <li><div class="col-md-12"><button type="button" class="btn btn-default btn-sm btn-block color-secondary-2-1"> Заказать звонок </button></div></li>
+            <li><p class="text-center"><i class="fa fa-phone"></i>8 800 505-43-05</p></li>
+            <li><div class="col-md-12"><button type="button" class="btn btn-red" data-toggle="modal" data-target="#myModal"> Заказать звонок </button></div></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>	
 	</header>
-	<section class="color-primary-2" id="rating">
-		<div class="screen">
+	<section class="color-primary-0" id="rating">
+		
 			<div class="container">
-				<div class="col-md-6">
-					<h1>Выбор НПФ<br/>
-					<small class="hidden-xs">
-					Как выбрать негосударственный пенсионный фонд 
-					для эффективного управления накопительной частью пенсии?
-					</small>
-					</h1>
+				<div class="col-md-6 col-md-offset-6">
+					<div class="fbox copy">
+						<div class="fbox-icon"> <i class="fa fa-check text-white"></i>  </div>
+						<h2 class="text-white" style="margin: 0px;">
+						Рейтинги НПФ
+						</h2>
+						<p class="p-general text-white" style="font-size: 1.6em;"> Здесь Вы можете сравнить фонды и выбрать лучший НПФ для себя! </p>
+					</div>	
 				</div>
 			</div>
-		</div>		
-	</section>
-	<section>
-		<div class="container">
-			<div class="row">
-				<h3 class="text-center">Как выбирать НПФ</h3>
-				<div class="col-md-6">
-				<p class="text-justify">При инвестировании Ваших пенсионных накоплений негосударственный 
-				пенсионный фонд выбирает несколько управляющих компаний. Это, во-первых, 
-				позволяет более эффективно инвестировать пенсионные накопления клиентов, 
-				а во-вторых, существенно снижать риски инвестирования. 
-				</p>
-				</div>
-			</div>
-		</div>
+				
 	</section>
 	
 	<!-- 
@@ -110,107 +99,439 @@
 			</div>
 	</section>
 
+	
+	
+	<section class="heading">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9">
+					<h3 class="heading-block"> Трудно выбрать? </h3>
+					<p>
+					Наши специалисты помогут подобрать для вас НПФ индивидуально.
+					</p>	
+				</div>
+				<div class="col-md-3">
+					<div class="heading-btn">
+					
+						<button type="button" class="btn btn-primary btn-md" data-toggle="modal" data-target=".bs-example-modal-coll"> Заказать консультацию </button>
+								
+						<div class="modal fade bs-example-modal-coll" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+						  <div class="modal-dialog modal-lg">
+						    <div class="modal-content">
+						      ... Перезвоним
+						    </div>
+						  </div>
+						</div>
+						
+					</div>
+				</div>				
+			</div>		
+		</div>
+	</section>
+	
 	-->
 	<section>
 		<div class="container">
-			<h3 class="text-center">Рейтинги НПФ <br/>
-			<small>
-			Список негосударственных пенсионных фондов. Выберите лучший НПФ по доходности и по рейтингу надежности.
-			</small>
-			</h3>
+			<div class="btn-group copy" role="group" aria-label="...">
+			  <button type="button" class="btn btn-choice"> По надежности </button>
+			  <button type="button" class="btn btn-choice" > По накоплениям </button>
+			  <button type="button" class="btn btn-choice"> По доходности </button>
+			</div>
 			<div class="table-responsive">
 				<table class="table table-hover">
 					<thead>
 						<tr>
 							<td> Название  </td>
-							<td> Надежность <i class="fa fa-chevron-down"></i></td>
-							<td> Объём накоплений </td>
-							<td> Среднегодовая доходность </td>
+							<td> Надежность </td>
+							<td> Накопления </td>
+							<td> Доходность </td>
 							<td> </td>
 						</tr>
 					</thead>
 					<tbody>	
 						<tr>
-		    				<td>Газфонд</td>
-		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
-		    				<td>61,600,124,000 р.</td>
-		    				<td>9.19%</td>
-		    				<td><a href="#"> Стать клиентом </a></td>
+		    				<td>
+		    					<div class="brand">
+			    					<div class="logo" id="gazfond"></div>
+			    					Газфонд 
+		    					</div>
+		    				</td>
+		    				<td> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
+		    				<td> 61,600,124 ₽ </td>
+		    				<td> 9.19% </td>
+		    				<td><a href="#" class="btn btn-blue"> Стать клиентом </a></td>
 		  				</tr>
 						<tr>
-		    				<td>Европейский пенсионный фонд</td>
-		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></td>
-		    				<td>10,331,000,000 р.</td>
-		    				<td>14.27%</td>
-		    				<td><a href="#"> Стать клиентом </a></td>
+		    				<td>
+		    					<div class="brand">
+			    					<div class="logo" id="epf">  </div>
+		    					 	Европейский ПФ 
+		    					</div>
+		    				</td>
+		    				<td class="hidden-xs"><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></td>
+		    				<td class="hidden-xs">10,331,000 ₽ </td>
+		    				<td class="hidden-xs">14.27%</td>
+		    				<td>
+		    					<div class="modal fade bs-example-modal-lg">
+								  <div class="modal-dialog">
+								    <div class="modal-content">
+								      <div class="modal-header">
+								        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+								        <h3 class="text-center modal-name">  ОАО «НПФ ГАЗФОНД» </h3>
+								      </div>
+								      <div class="modal-body">
+								      	
+								      	<form role="form">
+								      		<div class="m-box center-block">
+												   <div class="form-group input-group-lg">
+												     <label for="exampleInputEmail1"> Имя </label>
+												     <input type="name" class="form-control" id="exampleInputEmail1" placeholder="Имя">
+												   </div>
+												   <div class="form-group input-group-lg">
+												     <label for="phone"> Телефон </label>
+												     <input type="text" class="form-control" id="phone" placeholder=" +7 (XXX) XXX XX XX">
+												   </div>
+												</div>
+											   <div class="m-box center-block">
+													<button type="button" class="btn btn-blue btn-block btn-lg"> Отправить </button>
+											      <div class="or center-block"> или </div>
+													<a class="btn btn-blue btn-block btn-lg" type="submit" href="blank.html" target="_blank"> Заполнить анткету </a>
+													 <p class="p-secondary">
+											  		Наш специалист позвонит Вам в ближайшее время после получения заявки
+											  		</p>
+												</div>
+											</form>
+								      </div>
+								    </div><!-- /.modal-content -->
+								  </div><!-- /.modal-dialog -->
+								</div><!-- /.modal -->
+		    				
+		    					<button type="button" class="btn btn-blue" data-toggle="modal" data-target=".bs-example-modal-lg"> Стать клиентом </button>
+
+		    				</td>
 		  				</tr>
 		  				<tr>
-		    				<td>Национальный НПФ</td>
+		    				<td>
+		    					<div class="brand">
+			    					<div class="logo" id="na-npf">
+			    					</div>
+		    					 	Национальный НПФ 
+		    					 </div>
+		    				</td>
 		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
-		    				<td>11,569,600,000 р.</td>
+		    				<td>11,569,600 ₽ </td>
 		    				<td>10.78%</td>
-		    				<td><a href="#"> Стать клиентом </a></td>
+		    				<td><a href="#" class="btn btn-blue"> Стать клиентом </a></td>
 		  				</tr>
 		  				<tr>
-		    				<td>Солнце. Жизнь. Пенсии</td>
+		    				<td>
+		    					<div class="brand">
+			    					<div class="logo" id="s-zh-p">
+			    					</div>
+			    					 Солнце. Жизнь. Пенсия. 
+		    					 </div>
+		    				</td>
 		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></td>
-		    				<td>27,773,100,000 р.</td>
+		    				<td>27,773,100 ₽ </td>
 		    				<td>9.09%</td>
-		    				<td><a href="#"> Стать клиентом </a></td>
+		    				<td><a href="#" class="btn btn-blue"> Стать клиентом </a></td>
 		  				</tr>
 		  				<tr>
-		    				<td>КИТ Финанс НПФ</td>
+		    				<td>
+		    					<div class="brand">
+			    					<div class="logo" id="kit">
+			    					</div>
+			    					КИТ Финанс 
+		    					</div>
+		    				</td>
 		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
-		    				<td>48,461,400,000 р.</td>
+		    				<td>48,461,400 ₽ </td>
+		    				<td>8.36%</td>
+		    				<td><a href="#" class="btn btn-blue"> Стать клиентом </a></td>
+		  				</tr>
+		  				<tr>
+		    				<td>
+		    					<div class="brand">
+			    					<div class="logo" id="doverie">
+			    					</div>
+			    					Доверие 
+		    					</div>
+		    				</td>
+		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></td>
+		    				<td> 8,452,100 ₽ </td>
+		    				<td> 10.34% </td>
+		    				<td><a href="#" class="btn btn-blue"> Стать клиентом </a></td>
+		  				</tr>
+		  				<tr>
+		    				<td>
+		    					<div class="brand">
+			    					<a href="#"><div class="logo" id="electro">  </div> </a>
+			    					НПФ электроэнергетики
+		    					</div>
+		    				</td>
+		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
+		    				<td> 53,228,800 ₽ </td>
+		    				<td>8.36%</td>
+		    				<td><a href="#" class="btn btn-blue"> Стать клиентом </a></td>
+		  				</tr>
+		  				<tr>
+		    				<td>
+		    					<div class="brand">
+			    					<a href="#"><div class="logo" id="ugmk">  </div> </a>
+			    					УГМК-Перспектива
+		    					</div>
+		    				</td>
+		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></td>
+		    				<td> 4,145,400 ₽ </td>
+		    				<td>8.36%</td>
+		    				<td><a href="#" class="btn btn-blue"> Стать клиентом </a></td>
+		  				</tr>
+		  				<tr>
+		    				<td>
+		    					<div class="brand">
+			    					<a href="#"><div class="logo" id="soglasie">  </div> </a>
+			    					НПФ Согласие
+		    					</div>
+		    				</td>
+		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></td>
+		    				<td> 4,860,000 ₽ </td>
+		    				<td>8.36%</td>
+		    				<td><a href="#" class="btn btn-blue"> Стать клиентом </a></td>
+		  				</tr>
+		  				<tr>
+		    				<td>
+		    					<div class="brand">
+			    					<a href="#"><div class="logo" id="blago">  </div> </a>
+			    					Благосостояние
+		    					</div>
+		    				</td>
+		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
+		    				<td> 95,052,200 ₽ </td>
+		    				<td>8.36%</td>
+		    				<td><button type="button" class="btn btn-blue" data-toggle="modal" data-target=""> Стать клиентом </button></td>
+		  				</tr>
+		  				<tr>
+		    				<td>
+		    					<div class="brand">
+			    					<a href="#"><div class="logo" id="vtb">  </div> </a>
+			    					ВТБ Пенсионный фонд
+		    					</div>
+		    				</td>
+		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
+		    				<td> 50,706,500  ₽ </td>
+		    				<td>8.36%</td>
+		    				<td><button type="button" class="btn btn-blue" data-toggle="modal" data-target=""> Стать клиентом </button></td>
+		  				</tr>
+		  				<tr>
+		    				<td>
+		    					<div class="brand">
+			    					<a href="#"><div class="logo" id="rgs">  </div> </a>
+			    					Росгосстрах
+		    					</div>
+		    				</td>
+		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
+		    				<td> 49,862,700 ₽ </td>
 		    				<td>8.36%</td>
 		    				<td><a href="#"> Стать клиентом </a></td>
 		  				</tr>
 		  				<tr>
-		    				<td>КИТ Финанс НПФ</td>
+		    				<td>
+		    					<div class="brand">
+			    					<a href="#"><div class="logo" id="promgaz">  </div> </a>
+			    					Промагрофонд
+		    					</div>
+		    				</td>
 		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
-		    				<td>48,461,400,000 р.</td>
+		    				<td> 43,025,400 ₽ </td>
 		    				<td>8.36%</td>
 		    				<td><a href="#"> Стать клиентом </a></td>
 		  				</tr>
 		  				<tr>
-		    				<td>КИТ Финанс НПФ</td>
+		    				<td>
+		    					<div class="brand">
+			    					<a href="#"><div class="logo" id="nasledie">  </div> </a>
+			    					Наследие
+		    					</div>
+		    				</td>
 		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
-		    				<td>48,461,400,000 р.</td>
+		    				<td> 50,445,639 ₽ </td>
 		    				<td>8.36%</td>
 		    				<td><a href="#"> Стать клиентом </a></td>
 		  				</tr>
 		  				<tr>
-		    				<td>КИТ Финанс НПФ</td>
-		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
-		    				<td>48,461,400,000 р.</td>
+		    				<td>
+		    					<div class="brand">
+			    					<a href="#"><div class="logo" id="slalfond">  </div> </a>
+			    					Стальфонд
+		    					</div>
+		    				</td>
+		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></td>
+		    				<td> 35,676,165 ₽ </td>
+		    				<td>8.36%</td>
+		    				<td><a href="#"> Стать клиентом </a></td>
+		  				</tr><tr>
+		    				<td>
+		    					<div class="brand">
+			    					<a href="#"><div class="logo" id="neftgarant">  </div> </a>
+			    					Нефтегарант
+		    					</div>
+		    				</td>
+		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></td>
+		    				<td> 3,587,900  ₽ </td>
 		    				<td>8.36%</td>
 		    				<td><a href="#"> Стать клиентом </a></td>
 		  				</tr>
 		  				<tr>
-		    				<td>КИТ Финанс НПФ</td>
+		    				<td>
+		    					<div class="brand">
+			    					<a href="#"><div class="logo" id="atomgarant">  </div> </a>
+			    					Атомгарант
+		    					</div>
+		    				</td>
 		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
-		    				<td>48,461,400,000 р.</td>
+		    				<td> 4,133,400  ₽ </td>
 		    				<td>8.36%</td>
 		    				<td><a href="#"> Стать клиентом </a></td>
 		  				</tr>
 		  				<tr>
-		    				<td>КИТ Финанс НПФ</td>
+		    				<td>
+		    					<div class="brand">
+			    					<a href="#"><div class="logo" id="obrazovanie">  </div> </a>
+			    					Образование
+		    					</div>
+		    				</td>
+		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></td>
+		    				<td> 4,289,000 ₽ </td>
+		    				<td>8.36%</td>
+		    				<td><a href="#"> Стать клиентом </a></td>
+		  				</tr><tr>
+		    				<td>
+		    					<div class="brand">
+			    					<a href="#"><div class="logo" id="tranceneft">  </div> </a>
+			    					Транснефть
+		    					</div>
+		    				</td>
 		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
-		    				<td>48,461,400,000 р.</td>
+		    				<td> 5,303,100 ₽ </td>
 		    				<td>8.36%</td>
 		    				<td><a href="#"> Стать клиентом </a></td>
 		  				</tr>
 		  				<tr>
-		    				<td>КИТ Финанс НПФ</td>
-		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
-		    				<td>48,461,400,000 р.</td>
+		    				<td>
+		    					<div class="brand">
+			    					<a href="#"><div class="logo" id="mechel">  </div> </a>
+			    					Мечел-фонд
+		    					</div>
+		    				</td>
+		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></td>
+		    				<td> 6,651,600 ₽ </td>
 		    				<td>8.36%</td>
 		    				<td><a href="#"> Стать клиентом </a></td>
 		  				</tr>
 		  				<tr>
-		    				<td>КИТ Финанс НПФ</td>
+		    				<td>
+		    					<div class="brand">
+			    					<a href="#"><div class="logo" id="socrazvitie">  </div> </a>
+			    					Социальное развитие
+		    					</div>
+		    				</td>
+		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></td>
+		    				<td> 6,699,200 ₽ </td>
+		    				<td>8.36%</td>
+		    				<td><a href="#"> Стать клиентом </a></td>
+		  				</tr><tr>
+		    				<td>
+		    					<div class="brand">
+			    					<a href="#"><div class="logo" id="perviy">  </div> </a>
+			    					Первый НПФ
+		    					</div>
+		    				</td>
+		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></td>
+		    				<td> 7,373,500 ₽ </td>
+		    				<td>8.36%</td>
+		    				<td><a href="#"> Стать клиентом </a></td>
+		  				</tr>
+		  				<tr>
+		    				<td>
+		    					<div class="brand">
+			    					<a href="#"><div class="logo" id="magnit">  </div> </a>
+			    					Магнит
+		    					</div>
+		    				</td>
+		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></td>
+		    				<td> 7,548,000 ₽ </td>
+		    				<td>8.36%</td>
+		    				<td><a href="#"> Стать клиентом </a></td>
+		  				</tr>
+		  				<tr>
+		    				<td>
+		    					<div class="brand">
+			    					<a href="#"><div class="logo" id="hmnpf">  </div> </a>
+			    					Ханты-Мансийский НПФ
+		    					</div>
+		    				</td>
+		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></td>
+		    				<td> 9,091,400 ₽ </td>
+		    				<td>8.36%</td>
+		    				<td><a href="#"> Стать клиентом </a></td>
+		  				</tr>
+		  				<tr>
+		    				<td>
+		    					<div class="brand">
+			    					<a href="#"><div class="logo" id="socium">  </div> </a>
+			    					Социум
+		    					</div>
+		    				</td>
+		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></td>
+		    				<td> 10,704,100 ₽ </td>
+		    				<td>8.36%</td>
+		    				<td><a href="#"> Стать клиентом </a></td>
+		  				</tr>
+		  				<tr>
+		    				<td>
+		    					<div class="brand">
+			    					<a href="#"><div class="logo" id="regionfond">  </div> </a>
+			    					Регионфонд
+		    					</div>
+		    				</td>
+		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></td>
+		    				<td> 9,124,300 ₽ </td>
+		    				<td>8.36%</td>
+		    				<td><a href="#"> Стать клиентом </a></td>
+		  				</tr>
+		  				<tr>
+		    				<td>
+		    					<div class="brand">
+			    					<a href="#"><div class="logo" id="sun-bereg">  </div> </a>
+			    					Солнечный берег
+		    					</div>
+		    				</td>
+		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></td>
+		    				<td> 15,602,598 ₽ </td>
+		    				<td>8.36%</td>
+		    				<td><a href="#"> Стать клиентом </a></td>
+		  				</tr>
+		  				<tr>
+		    				<td>
+		    					<div class="brand">
+			    					<a href="#"><div class="logo" id="raifaizen">  </div> </a>
+			    					Райффайзен
+		    					</div>
+		    				</td>
 		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
-		    				<td>48,461,400,000 р.</td>
+		    				<td> 12,547,400 ₽ </td>
+		    				<td>8.36%</td>
+		    				<td><a href="#"> Стать клиентом </a></td>
+		  				</tr>
+		  				<tr>
+		    				<td>
+		    					<div class="brand">
+			    					<a href="#"><div class="logo" id="bolshoy">  </div> </a>
+			    					Большой ПФ
+		    					</div>
+		    				</td>
+		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></td>
+		    				<td> 23,338,800 ₽ </td>
 		    				<td>8.36%</td>
 		    				<td><a href="#"> Стать клиентом </a></td>
 		  				</tr>
@@ -223,32 +544,39 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4">
-					 <h4 class="text-uppercase">Немного о нас</h4>
+					 <h4>Немного о нас</h4>
 					<p>
-					© 2015 ОАО «ВЫБОР НПФ» <br/> Независимый сайт по выбору пенсионного фонда
+					© 2015 ОАО «Пенсия Онлайн» <br/> Независимый сайт по выбору пенсионного фонда
 					</p>
 				</div>
 				<div class="col-md-4">
-					 <h4 class="text-uppercase">Поговори с нами</h4>
+					 <h4>Поговори с нами</h4>
 					<ul class="list-unstyled">
-						<li><i class="fa fa-phone"> 8 800 505-43-05</i></li>
-						<li><i class="fa fa-skype"> vibor-npf</i> </li>
-						<li><i class="fa fa-envelope-o"><a href="mailto:#"> vibor-npf@gmail.com</a></i></li>
+						<li><i class="fa fa-phone"></i> 8 800 505-43-05</li>
+						<li><i class="fa fa-skype"></i> vibor-npf </li>
+						<li><i class="fa fa-envelope-o"></i> <a href="mailto:#"> vibor-npf@gmail.com</a></li>
 					</ul>
 				</div>
 				<div class="col-md-4">
-					 <h4 class="text-uppercase">Не забудь рассказать</h4>
-					<ul class="list-unstyled">
-						<li><a href="#"><i class="fa fa-vk share"> В контакте</i> </a></li>
-						<li><a href="#"><i class="fa fa-facebook share"> Facebook</i> </a></li>
-						<li><a href="#"><i class="fa fa-twitter share"> Twitter</i> </a></li>
-						<li><a href="#"><i class="fa fa-google-plus share"> Google+</i> </a></li>
-					</ul>
+					 <h4>Не забудь рассказать</h4>
+					<div class="list-group">
+						<a href="#" class="list-group-item"><i class="fa fa-vk"></i>  В контакте </a>
+						<a href="#" class="list-group-item"><i class="fa fa-facebook"> </i> Facebook </a>
+						<a href="#" class="list-group-item"><i class="fa fa-twitter "> </i> Twitter </a>
+						<a href="#" class="list-group-item"><i class="fa fa-google-plus"> </i> Google + </a>
+					</div>
 				</div>
 			</div>
 			<div class="row">
-				<h4>© 2015 ОАО «ВЫБОР НПФ»</h4>
+				<div class="col-md-12">
+				<h4> <i class="fa fa-copyright"></i> 2015 ОАО «Пенсия Онлайн»</h4>
+				</div>
 			</div>
 		</div>
-	</footer>	
+	</footer>
+	
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+   <!-- Include all compiled plugins (below), or include individual files as needed -->
+   <script src="bootstrap/js/bootstrap.min.js"></script>
 </body>

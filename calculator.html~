@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="ru">
+<head>
+	<title> Пенсионный калькулятор  </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<header class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="active navbar-brand" href="#">
+          	<div class="brand-logo"></div>
+          </a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+          	<li><a href="index.html"> Главная </a></li>
+          	<li><a href="about.html">О пенсии</a></li>
+            <li><a href="rating.html">Рейтинги НПФ</a></li>
+            <li><a href="calculator.html">Калькулятор</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right hidden-sm">
+            <li><p class="text-center"><i class="fa fa-phone"></i>8 800 505-43-05</p></li>
+            <li><div class="col-md-12"><button type="button" class="btn btn-red center-block" data-toggle="modal" data-target="#myModal"> Заказать звонок </button></div></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>	
+	</header>
+	<section class="color-background-1">
+		<div class="container">
+			<h2 class="text-center"> Пенсионный калькулятор </h2>
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="copy calculator">
+						<form  class="form-horizontal " role="form">
+							  <div class="form-group">
+							    <label for="exampleInputEmail1" class="col-sm-8 control-label"> Ваш пол </label>
+							    	<div class="col-sm-4">
+									   <select class="form-control">
+										  <option> Мужской </option>
+										  <option> Женский </option>
+										</select> 
+									</div>
+							  </div>
+							  <div class="form-group">
+							    <label for="exampleInputEmail1" class="col-sm-8 control-label"> Ваш возраст </label>
+							    	<div class="col-sm-4">
+							    		<div class="input-group">
+									   	<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Возраст">
+									   	<span class="input-group-addon"> <i class="fa fa-calendar-o"></i> </span>
+									   </div> 
+									</div>
+							  </div>
+							  
+							  <div class="form-group">
+							    <label for="exampleInputPassword1" class="col-sm-8 control-label"> Ваша заработная плата </label>
+							    <div class="col-sm-4">
+							    	<div class="input-group">
+								    	<input type="text" class="form-control" id="exampleInputPassword1" placeholder="Зарплата">
+								    	<span class="input-group-addon"> <i class="fa fa-rub"></i> </span>
+							    	</div>
+							    </div>
+							  </div>
+							  
+							  <div class="form-group">
+							    <label for="exampleInputPassword1" class="col-sm-8 control-label"> Сумма пенсионных накоплений </label>
+							    <div class="col-sm-4">
+							    	<div class="input-group">
+								    	<input type="text" class="form-control" id="exampleInputPassword1" placeholder="Накопления">
+								    	<span class="input-group-addon"> <i class="fa fa-rub"></i> </span>
+							    	</div>
+							    </div>
+							  </div>
+							  
+							  <div class="form-group">
+								  	<label for="exampleInputPassword1" class="col-sm-8 control-label"> Доходность фонда </label>
+								 
+								 	<div class="col-sm-4">
+									   <div class="input-group">
+										  <input type="text" class="form-control" placeholder="00">
+										  <span class="input-group-addon"> % </span>
+										</div>
+									</div>
+								</div>
+						</form>
+						<div class="table">
+							<table class="table table-striped">
+								<thead>
+									<tr>
+										<td class="hidden-xs">   </td>
+										<td> НПФ  </td>
+										<td> ПФР </td>
+									</tr>
+								</thead>
+								<tbody>	
+									<tr>
+										<td class="title-small hidden-xs">
+					    					Доходность:
+					    				</td>
+					    				<td class="title-big">
+					    					10 %
+					    				</td>
+					    				<td class="title-small"> 
+					    					5 %
+					    				</td>
+					  				</tr>
+					  				<tr>
+										<td class="title-small hidden-xs">
+					    					Размер пенсии:
+					    				</td>
+					    				<td class="title-big">
+					    					27,300 ₽
+					    				</td>
+					    				<td class="title-small"> 
+					    					12,300 ₽
+					    				</td>
+					  				</tr>
+					  				<tr>
+										<td class="title-small hidden-xs">
+					    					Накопления:
+					    				</td>
+					    				<td class="title-big">
+					    					4,556,141 ₽
+					    				</td>
+					    				<td class="title-small"> 
+					    					1,251,768 ₽
+					    				</td>
+					  				</tr>
+				  				</tbody>
+				  			</table>
+				  		</div>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="b-box center-block">
+					<a class="btn btn-blue btn-lg center-block" href="rating.html"> Рейтинги НПФ </a>
+				</div>
+			</div>
+		</div>
+	</section>		
+	<section class="color-background-1">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div style="padding: 10px; border-bottom: 1px dotted #6699cc; border-top: 1px dotted #6699cc; margin-bottom: 20px;">
+					<p class="p-small">
+					Доход от размещения пенсионных резервов и инвестирования пенсионных накоплений может как уменьшаться, так и увеличиваться в зависимости от рыночных условий и состояния фондовых рынков. Результаты инвестирования в прошлом не определяют доходов в будущем. Государство не гарантирует доходности размещения пенсионных резервов и инвестирования пенсионных накоплений. Расчеты размера будущей пенсии или ее части несут справочный характер, не могут определять размер дохода в будущем и считаться офертой в соответствии с законодательством РФ.
+					<p/>
+					<p class="p-small">
+					Перед заключением пенсионного договора или переводом пенсионных накоплений в Фонд просим Вас внимательно ознакомиться с Уставом Фонда, Пенсионными и Страховыми правилами.
+					</p>	
+					</div>			
+				</div>			
+			</div>
+			<!--
+			
+			-->		
+		</div>	
+	</section>
+	
+	
+	<footer class="color-primary-3">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					 <h4>Немного о нас</h4>
+					<p>
+					© 2015 ОАО «Пенсия Онлайн» <br/> Независимый сайт по выбору пенсионного фонда
+					</p>
+				</div>
+				<div class="col-md-4">
+					 <h4>Поговори с нами</h4>
+					<ul class="list-unstyled">
+						<li><i class="fa fa-phone"></i> 8 800 505-43-05</li>
+						<li><i class="fa fa-skype"></i> vibor-npf </li>
+						<li><i class="fa fa-envelope-o"></i> <a href="mailto:#"> vibor-npf@gmail.com</a></li>
+					</ul>
+				</div>
+				<div class="col-md-4">
+					 <h4>Не забудь рассказать</h4>
+					<div class="list-group">
+						<a href="#" class="list-group-item"><i class="fa fa-vk"></i>  В контакте </a>
+						<a href="#" class="list-group-item"><i class="fa fa-facebook"> Facebook</i> </a>
+						<a href="#" class="list-group-item"><i class="fa fa-twitter "> Twitter</i> </a>
+						<a href="#" class="list-group-item"><i class="fa fa-google-plus"> Google+</i> </a>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+				<h4> <i class="fa fa-copyright"></i> 2015 ОАО «Пенсия Онлайн»</h4>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+   <!-- Include all compiled plugins (below), or include individual files as needed -->
+   <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="ru">
 <head>
-	<title>Page</title>
+	<title> О пенсии </title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
@@ -19,34 +19,584 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="active navbar-brand" href="index.html">Project name</a>
+          <a class="active navbar-brand" href="index.html"> <div class="brand-logo"></div> </a>
         </div>
         <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
+          	<li><a href="index.html"> Главная </a></li>
           	<li><a href="about.html">О пенсии</a></li>
             <li><a href="rating.html">Рейтинги НПФ</a></li>
+            <li><a href="calculator.html">Калькулятор</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right hidden-sm">
-            <li><p><i class="fa fa-phone"></i>8 800 505-43-05</p></li>
-            <li><div class="col-md-12"><button type="button" class="btn btn-default btn-sm btn-block color-secondary-2-1"> Заказать звонок </button></div></li>
+            <li><p class="text-center"><i class="fa fa-phone"></i>8 800 505-43-05</p></li>
+            <li><div class="col-md-12"><button type="button" class="btn btn-red" data-toggle="modal" data-target="#myModal"> Заказать звонок </button></div></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>	
 	</header>
 	<section class="color-primary-0" id="about" >
-		<div class="screen" id="answer">
+		<div class="screen">
 			<div class="container">
-				<div class="col-md-6">
-					<h1>Кто контролирует<br/>
-					<small class="hidden-xs">
-					Как выбрать негосударственный пенсионный фонд 
-					для эффективного управления накопительной частью пенсии?
-					</small>
-					</h1>
+				<div class="col-md-12">
+					
 				</div>
 			</div>
 		</div>		
 	</section>
+	<section>
+		<div class="container">
+			<h2 class="text-center">Почему важно сохранить накопительную пенсию?</h2>
+			<div class="row">
+				<div class="col-md-4 col-sm-6">
+					<div class="box-static center-block">
+						<div class="circles">
+							<div class="circle-bg man man-1">
+		        			
+		      			</div>
+							<div class="circle-bg quote-2">
+		        				<span> 2015 </span>
+		      			</div>
+	      			</div>
+	      			<p>
+						Бюджет ПФР уже сегодня испытывает
+						серьезное давление: выплаты
+						пенсий сегодняшним пенсионерам
+						формируются из отчислений 1,5
+						работников (на одного пенсионера), в
+						то время как еще в 1990 году их было
+						5-7 человек 
+						</p>
+					</div>
+					
+					<!--
+					
+					<div class="box color-background-1  center-block">
+						<div class="box-icon circle-bg">
+							<img style="padding-top: 30px; height: 90px;" src="http://www.lukoil-garant.ru/bitrix/templates/main/img/man_1.png">
+						</div>
+						<div class="info">
+							<h4 class="text-center">2015 год</h4>
+							<p>
+							Бюджет ПФР уже сегодня испытывает
+							серьезное давление: выплаты
+							пенсий сегодняшним пенсионерам
+							формируются из отчислений 1,5
+							работников (на одного пенсионера), в
+							то время как еще в 1990 году их было
+							5-7 человек 
+							</p>
+						</div>
+					</div>
+					
+					-->
+					
+				</div>	
+				<div class="col-md-4 col-sm-6">
+					<div class="box-static center-block">
+						<div class="circles">
+							<div class="circle-bg man man-2">
+		        				
+		      			</div>
+							<div class="circle-bg quote-2">
+		        				<span> 2030 </span>
+		      			</div>
+	      			</div>
+	      			<p>
+						Демографический кризис и
+						старение населения
+						
+						приведут к тому, что через
+						15 лет количество
+						
+						работающих и пенсионеров
+						сравняется
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="box-static center-block">
+						<div class="circles">
+							<div class="circle-bg man man-3">
+		        				
+		      			</div>
+							<div class="circle-bg quote-2">
+		        				<span> 2035 </span>
+		      			</div>
+	      			</div>
+	      			<p>
+						В этих условиях страховая пенсия тех, кто выйдет на пенсию
+						в 2025-2035 годах, будет формироваться вдвое меньшим
+						числом работающих, чем сейчас, то есть в условиях
+						дефицита средств. Поэтому сегодня							
+						каждому необходимо задуматься о самостоятельном
+						формировании пенсионного капитала! 
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="color-background-2">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-5 hidden-xs">
+					<img src="img/35.png" alt="" class="center-block img-responsive people-mini">
+				</div>
+				<div class="col-md-7">
+					<div class="copy">
+						<h2> Ваша будущая пенсия зависит от Вас </h2>
+						<div class="p-box copy">
+							<p class="p-general">
+							Современная пенсионная система устроина так, что только мы&nbsp;сами задаем уровень своей жизни в&nbsp;будущем.
+
+							</p>
+							<p class="p-general">
+							Мы&nbsp;поможем Вам понять механизм образования Вашей пенсии, научиться анализировать фонды и&nbsp;стать финансово грамотным человеком. <br/>
+							Все просто, доступно и&nbsp;познавательно.
+							</p>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</section>
+	<section>
+		<div class="container">
+			<h2 class="text-center"> Куда идут наши налоги? </h2>	
+			<div class="row">
+				<div class="col-md-4">
+					<div class="copy">
+						<p class="p-general">
+							Если вы&nbsp;&mdash; работающий гражданин, работодатель отчисляет за&nbsp;вас взносы в&nbsp;Пенсионный фонд Российской Федерации, из&nbsp;которых затем будет складываться ваша пенсия.
+						</p>
+						<ul class="list-style">
+							<li> Куда направляются наши взносы? </li>
+							<li> Какая часть нашей зарплаты идет на налоги? </li>
+							<li> Какая доля отчислений влияет на размер будущей пенсии? </li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-8">
+					<img src="https://lh3.googleusercontent.com/1rPkBH5dqwq-wZgF5gsIJLNJgJgZmLdyHZ7Bcei2ICM=w696-h394-no" alt="" class="center-block img-responsive" style="margin-bottom: 48px; margin-top: 48px;">
+				</div>			
+			</div>		
+		</div>
+	</section>
+	<section class="color-background-1">
+		<div class="container">
+			<h2 class="text-center"> Доходность </h2>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="copy">
+						<p class="p-general">
+						Хорошая пенсия — результат грамотного инвестирования Ваших денег Вашим НПФ
+						</p>
+						<p class="p-general">
+						Два человека могут одинаково зарабатывать и соответственно иметь 
+						аналогичные отчисления в пенсионный фонд, но их пенсия может отличаться 
+						в разы в зависимости от выбора НФП или ПФР. Доходность НФП зачастую 
+						становиться ключевым фактором выбора — ведь беззаботно жить на пенсии мечтает каждый.
+						</p>	
+					</div>	
+					<div class="box-head">
+						<span> График доходности </span>
+					</div>
+					<p class="p-small"> статистика 2009 – 2014 г. </p>	
+					<div class="f-box center-block">
+						<div class="name-fond">
+							
+							<div class="name-row">
+								Государственный фонд
+							</div>
+							<div class="name-row">
+								В целом по НПФ
+							</div>
+							<div class="name-row">
+								НПФ "Сургутнефтегаз" 
+							</div>
+							
+						</div>
+						<div class="grafic-fond">
+							<div class="r-line"></div>
+							
+							<div class="graphic-row">
+								<div class="pfr"> 42% </div>
+							</div>
+							<div class="graphic-row">
+								<div class="npf"> 58% </div>
+							</div>
+							<div class="graphic-row">
+								<div class="some-npf"> 87% </div>
+							</div>
+							<div class="bott-row">
+								 Инфляция
+							</div>	
+						</div>		
+					</div>
+					<p class="p-italy">
+					"По задумке государства, львиная доля Вашей пенсии образуется не от Вашей зарплаты, а от начисленных на нее процентов. Такая практика принята во всех развитых странах." 
+					</p>
+					<p class="p-italy" style="color: #333; margin-bottom: 40px;"> — Екатерина, финансовый аналитик, Москва </p>
+				</div>
+				<div class="col-md-6">
+					<div class="copy">
+						<div class="video-responsive">
+		  						<iframe width="auto" height="auto" src="https://www.youtube.com/embed/3ms3pHE9aCU" frameborder="0" allowfullscreen></iframe>
+						</div>
+					</div>	
+				</div>				
+			</div>		
+		</div>
+	</section>
+	<section>
+		<div class="container">
+			<h2 class="text-center"> Куда вкладывают накопления? </h2>
+			<div class="row">
+				<div class="col-md-5 hidden-xs">
+					<div class="copy">
+						<img src="https://lh3.googleusercontent.com/Z1pKu8COOPsl5KnjuGtR9DjZjzD4NK-2gk3GNdEnd30=w327-h330-no" alt="" class="img-responsive center-block" style="margin-bottom: 40px; margin-top: 100px; width: 250px;">
+					</div>
+				</div>
+				<div class="col-md-7">
+					<div class="copy">
+						<p class="p-general">
+						В соответствии с действующим законодательством НПФ имеют право инвестировать средства в следующие активы: <br/>
+						<small style="font-size: 15px;" class="text-muted"> Источник: <a href="http://www.consultant.ru/document/cons_doc_LAW_37863/" target="_blank">  
+						 Федеральный закон № 111-ФЗ / «КонсультантПлюс» </a> 
+						</small>
+						</p>	
+						<ul class="list-style">
+							<li> Государственные ценные бумаги Российской Федерации </li>
+							<li> Государственные ценные бумаги субъектов РФ </li>
+							<li> Облигации, выпущенные от имени муниципальных образований </li>
+							<li> Облигации российских эмитентов, которые соответствуют требованиям Банка России </li>
+							<li> Акции российских акционерных обществ </li>
+							<li> Ипотечные ценные бумаги </li>
+							<li> Денежные средства на счетах и депозитах в кредитных организациях  </li>
+							<li> Ценные бумаги международных финансовых организаций </li>
+						</ul>
+					</div>
+				</div>				
+			</div>		
+		</div>
+	</section>
+	<section class="color-background-1">
+		<div class="container">
+			<h2 class="text-center"> Надежность и гарантии </h2>
+			<div class="row">
+				<div class="col-md-4">
+					<div class="copy">
+						<p class="p-general">
+						Конечно, любого человека волнует вопрос надежности и гарантий в отношении его вложений.
+						</p>
+						<p class="p-general">
+						В любом случае функционирование каждого НФП  имеет гарантийное обеспечение государства, 
+						однако не помешает знать некоторые нюансы. 
+						</p>
+					</div>	
+				</div>
+				<div class="col-md-4">
+					<div class="copy center-block">
+						
+							<div class="box-head">
+								<span> Внутренний контроль </span>
+							</div>
+							<ul class="list-unstyled list-style">
+								<li> Попечительский совет </li>
+								<li> Ревизионная комиссия </li>
+								<li> Внутренний контроллер </li>
+							</ul>
+						
+						
+							<div class="box-head">
+								<span> Государственный контроль </span>
+							</div>
+							<ul class="list-unstyled list-style">
+								<li> Министерство финансев РФ </li>
+								<li> Министерство труда и социальной защиты </li>
+								<li> Министерство юстиции РФ </li>
+								<li> Федеральная служба по финансовым рынкам РФ </li>
+								<li> Пенсионный фонд РФ </li>
+								<li> Центральный банк РФ </li>
+							</ul>
+						
+					</div>
+				</div>
+				<div class="col-md-4">
+					<div class="copy center-block">
+						
+							<div class="box-head">
+								<span> Клиентский контроль </span>
+							</div>
+							<ul class="list-unstyled list-style">
+								<li> Вкладчиков </li>
+								<li> Участников </li>
+								<li> Застрахованных лиц </li>
+							</ul>
+					
+						
+							<div class="box-head">
+								<span> Независимый контроль </span>
+							</div>
+							<ul class="list-unstyled list-style">
+								<li> Ежедневный контроль депозитария </li>
+								<li> Независимый аудитор </li>
+								<li> Независимый актуарий </li>
+							</ul>
+						
+					</div>
+				</div>				
+			</div>		
+		</div>
+	</section>
+	
+	<!--
+	
+	<section>
+		<div class="container">
+			<h2 class="text-center">Приемущества 
+			</h2>
+			<div class="row">
+				<div class="col-md-4 col-sm-6">
+					<div class="talkbubble copy">
+						<div id="talkbubble"><i class="fa fa-user-plus"></i></div>
+						<h4 class="text-center" >
+						Возможность указать правопреемника
+						</h4>
+					</div>
+				</div>	
+				<div class="col-md-4 col-sm-6">
+					<div class="talkbubble copy">
+						<div id="talkbubble"><i class="fa fa-shield"></i></div>
+						<h4 class="text-center">
+						Государственный контроль
+						</h4>				
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="talkbubble copy">
+						<div id="talkbubble"><i class="fa fa-thumbs-o-up"></i></div>
+						<h4 class="text-center">
+						Индивидуальный договор
+						</h4>				
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="talkbubble copy">
+						<div id="talkbubble"><i class="fa fa-suitcase"></i></div>
+						<h4 class="text-center">
+						Возможность переходов 
+						</h4>				
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="talkbubble copy">
+						<div id="talkbubble"><i class="fa fa-money"></i></div>
+						<h4 class="text-center">
+						Высокая доходность
+						</h4>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<div class="talkbubble copy">
+						<div id="talkbubble"><i class="fa fa-line-chart"></i></div>
+						<h4 class="text-center">
+						Хорошая статистика
+						</h4>				
+					</div>
+				</div>
+			</div>		
+		</div>
+	</section>
+	
+	
+	
+	<section class="color-primary-0 heading">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9">
+					<h3 class="heading-block"> Появились вопросы? </h3>
+					<p>
+					Наши специалисты всегда готовы помочь 
+					</p>	
+				</div>				
+			</div>		
+		</div>
+	</section>
+	
+	-->
+	
+	<section>
+		<div class="container">
+			<h2 class="text-center"> Можно ли поменять нпф? </h2>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="copy">
+						<p class="p-general">
+						Вы много узнали о своей будущей пенсии, взвесили все «за» и «против» 
+						и сменить свой фонд в пользу более доходного или стабильного? <br/>
+						Ничего сложного в этом нет:
+						</p>	
+						<ul class="list-style">
+							<li> Расторгать договор с предыдущим фондом нет необходимости; </li>
+							<li> Доход, который принес Вам предыдущий НФП, не теряется; </li>
+							<li> Сегда можно вернуться обратно – Вы можете менять НФП 1 раз в год </li>
+							<li> Никакой бумажной волокиты на Вашей работе – все перестановки отслеживаются в  ПФР. </li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-6 hidden-xs">
+					<div class="copy">
+	  					<div class="video-responsive">
+		  					<iframe width="auto" height="auto" src="https://www.youtube.com/embed/3ms3pHE9aCU" frameborder="0" allowfullscreen></iframe>
+						</div>
+					</div>	
+				</div>				
+			</div>		
+		</div>
+	</section>
+	<section id="end" class="color-background-2">
+		<div class="container">
+			<h2 class="text-center"> Пора начинать влиять на свое будущее </h2>
+			<div class="row">
+				<div class="col-md-8 col-md-offset-2">
+					<div class="p-box copy">
+						<p class="p-general" style="text-align: justify;">
+						Наш мозг устроен таким образом, что мы&nbsp;настороженно относимся к&nbsp;новому и&nbsp;неизвестному. Нас тяжело растормошить.&nbsp;90% желающих что-то сделать и&nbsp;решить не&nbsp;начинают просто потому, что откладывают все на&nbsp;потом. На&nbsp;завтра. Но, к&nbsp;сожалению, в&nbsp;вопросе пенсии счет идет уже на&nbsp;дни. Вы&nbsp;должны сделать выбор до&nbsp;конца 2015 года&nbsp;&mdash; иначе Ваши средства осядут в&nbsp;ВЭБ, где накопления сведет на&nbsp;нет инфляция и&nbsp;отсутствие роста средств. Мы&nbsp;постарались донести до&nbsp;Вас азы работы пенсионной системы, но&nbsp;всегда есть нюансы и&nbsp;более глубокие знания, которые не&nbsp;помешает знать каждому. Наш главный критерий оценки собственного качества работы&nbsp;&mdash; Ваш результат. 
+						</p>					
+					</div>
+					<div class="b-box center-block">
+						<a class="btn btn-blue btn-lg center-block" href="rating.html"> Рейтинги НПФ </a>
+					</div>
+				</div>		
+			</div>		
+		</div>	
+	</section>
+	<section>
+		<div class="container">
+			<h2 class="text-center"> Отзывы </h2>
+			<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			  <!-- Wrapper for slides -->
+			  <div class="carousel-inner">
+			    <div class="item active">
+			      <div class="testimonial-wrap">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="copy center-block reviews">
+									<div class="quote">
+										<p>
+										«Задумывался о вопросе давно, искал специалистов, чтобы заключить договор – нашел тут! Для меня важен результат, поэтому я остался доволен. Важно, что до меня донесли, что делать все нужно быстро до конца года. Так бы я еще  долго раскачивался. Как говорится, готовь сани летом а телегу зимой. Хорошо, что я сделал все своевременно, чего и Вам советую» 
+										</p>
+									</div>
+									<div class="student">
+										<div class="photo" id="maria"> </div>
+										<p> Александр </p>
+										<p> Уфа </p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 hidden-sm hidden-xs">
+								<div class="copy center-block reviews">
+									<div class="quote">
+										<p>
+										«Меня всегда забавляло, что какой бы НПФ не приходил к нам на работу, именно  ОН всегда на первом месте. Сколько оказывается первых мест. К подобным словам и относишься без серьезности – для нас это как перерыв на обед - мы всегда готовы послушать ,как «корабли бороздят просторы…»! Только на сайте узнал, что, оказывается, у всех НФП одна и та же политика инвестирования.»
+										</p>
+									</div>
+									<div class="student">
+										<div class="photo" id="kat"> </div>
+										<p>Екатерина</p>
+										<p> Санкт – Петербург </p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+			    </div>
+			    <div class="item">
+			      <div class="testimonial-wrap">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="copy center-block reviews">
+									<div class="quote">
+										<p>
+										«К нам на работу приходили агенты НПФ, что-то объясняли и долго уговаривали нас подписать договоры. Самый главный их аргумент был в том, что это Гос. Программа, но для меня все это было не убедительно. В наше время поверить людям на слово тяжело. Посмотрела на сайте и поняла, что это действительно так. Даже пожалела, что не заключила договор пару месяцев назад.»
+										</p>
+									</div>
+									<div class="student">
+										<div class="photo" id="anna"> </div>
+										<p> Мария </p>
+										<p> Пермь </p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 hidden-sm hidden-xs">
+								<div class="copy center-block reviews">
+									<div class="quote">
+										<p>
+										«Хочу сказать Спасибо! Я проживаю в районном центре. Информации очень мало. Пришла в ПФР, чтобы узнать про НПФ, а меня можно сказать «отфутболили» -  показали стенд, где есть список НПФ – и все! Заключить договор я так и не смогла. Сервис  Пенсия Онлайн помог мне это сделать. Теперь я спокойна за свои сбережения.  За это им отдельное спасибо.»
+										</p>
+									</div>
+									<div class="student">
+										<div class="photo" id="elena"> </div>
+										<p> Елена </p>
+										<p> Горнозаводск </p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+			    </div>
+			    <div class="item">
+			      <div class="testimonial-wrap">
+						<div class="row">
+							<div class="col-md-6">
+								<div class="copy center-block reviews">
+									<div class="quote">
+										<p>
+										«Я очень рада! Мы с мужем искали информацию о гарантиях и куда НФП вкладывают деньги. Нашли эту информацию в доступном виде только на этом сайте. Спасибо всем тем людям, кто участвует в этом проекте. Все гораздо проще, чем мы себе представляли!»
+										</p>
+									</div>
+									<div class="student">
+										<div class="photo" id="tom"> </div>
+										<p> Анна </p>
+										<p> Екатеринбург </p>
+									</div>
+								</div>
+							</div>
+							<div class="col-md-6 hidden-sm hidden-xs">
+								<div class="copy center-block reviews">
+									<div class="quote">
+										<p>
+										«Интересно, а почему на сайтах НПФ нет такой информации? И зачем нужны агенты,  если все и так доступно  и просто? Зашел, все прочитал, уточнил нюансы и заключил договор. Скажу больше,  сюда я зашел по рекомендации представителя НФП после того, как я замучил его  вопросами. Недавно перезвонил ему  и сказал спасибо за хороший контент о пенсии.»
+										</p>
+									</div>
+									<div class="student">
+										<div class="photo" id="evgenia"> </div>
+										<p> Евгений </p>
+										<p> Владивосток </p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+			    </div>
+			    
+			  </div>
+			
+			  <!-- Controls -->
+			  <a class="left carousel-contr" href="#carousel-example-generic" data-slide="prev">
+			    <span class="glyphicon glyphicon-chevron-left"></span>
+			  </a>
+			  <a class="right carousel-contr" href="#carousel-example-generic" data-slide="next">
+			    <span class="glyphicon glyphicon-chevron-right"></span>
+			  </a>
+			</div>
+		</div>	
+	</section>
+	
+	<!--
 	<section>
 		<div class="container">
 			<h3 class="text-center">Преимущества НПФ перед ПФР и ЧУК</h3>
@@ -110,39 +660,44 @@
 			</div>
 		</div>		
 	</section>
+	
+	-->
+	
 	<footer class="color-primary-3">
 		<div class="container">
 			<div class="row">
 				<div class="col-md-4">
-					 <h4 class="text-uppercase">Немного о нас</h4>
+					 <h4>Немного о нас</h4>
 					<p>
-					© 2015 ОАО «ВЫБОР НПФ» <br/> Независимый сайт по выбору пенсионного фонда
+					© 2015 ОАО «Пенсия Онлайн» <br/> Независимый сайт по выбору пенсионного фонда
 					</p>
 				</div>
 				<div class="col-md-4">
-					 <h4 class="text-uppercase">Поговори с нами</h4>
+					 <h4>Поговори с нами</h4>
 					<ul class="list-unstyled">
-						<li><i class="fa fa-phone"> 8 800 505-43-05</i></li>
-						<li><i class="fa fa-skype"> vibor-npf</i> </li>
-						<li><i class="fa fa-envelope-o"><a href="mailto:#"> vibor-npf@gmail.com</a></i></li>
+						<li><i class="fa fa-phone"></i> 8 800 505-43-05</li>
+						<li><i class="fa fa-skype"></i> vibor-npf </li>
+						<li><i class="fa fa-envelope-o"></i> <a href="mailto:#"> vibor-npf@gmail.com</a></li>
 					</ul>
 				</div>
 				<div class="col-md-4">
-					 <h4 class="text-uppercase">Не забудь рассказать</h4>
-					<ul class="list-unstyled">
-						<li><a href="#"><i class="fa fa-vk share"> В контакте</i> </a></li>
-						<li><a href="#"><i class="fa fa-facebook share"> Facebook</i> </a></li>
-						<li><a href="#"><i class="fa fa-twitter share"> Twitter</i> </a></li>
-						<li><a href="#"><i class="fa fa-google-plus share"> Google+</i> </a></li>
-					</ul>
+					 <h4>Не забудь рассказать</h4>
+					<div class="list-group">
+						<a href="#" class="list-group-item"><i class="fa fa-vk"></i>  В контакте </a>
+						<a href="#" class="list-group-item"><i class="fa fa-facebook"> </i> Facebook </a>
+						<a href="#" class="list-group-item"><i class="fa fa-twitter "> </i> Twitter </a>
+						<a href="#" class="list-group-item"><i class="fa fa-google-plus"> </i> Google + </a>
+					</div>
 				</div>
 			</div>
 			<div class="row">
-				<h4>© 2015 ОАО «ВЫБОР НПФ»</h4>
+				<div class="col-md-12">
+				<h4> <i class="fa fa-copyright"></i> 2015 ОАО «Пенсия Онлайн»</h4>
+				</div>
 			</div>
 		</div>
 	</footer>
-		
+	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
    <!-- Include all compiled plugins (below), or include individual files as needed -->
