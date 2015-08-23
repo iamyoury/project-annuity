@@ -30,19 +30,22 @@
           </ul>
           <ul class="nav navbar-nav navbar-right hidden-sm">
             <li><p class="text-center"><i class="fa fa-phone"></i>8 800 505-43-05</p></li>
-            <li><div class="col-md-12"><button type="button" class="btn btn-red" data-toggle="modal" data-target="#myModal"> Заказать звонок </button></div></li>
+            <li><div class="col-md-12"><button type="button" class="btn btn-red center-block" data-toggle="modal" data-target="#myModal"> Заказать звонок </button></div></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>	
 	</header>
-	<section class="color-primary-0" id="about" >
+	<section class="color-primary-0">
+	<img src="img/10.jpg" alt="" class="img-responsive" style="width: 100%; height: auto;">
+	<!--
 		<div class="screen">
 			<div class="container">
 				<div class="col-md-12">
 					
 				</div>
 			</div>
-		</div>		
+		</div>	
+	-->		
 	</section>
 	<section>
 		<div class="container">
@@ -68,29 +71,6 @@
 						5-7 человек 
 						</p>
 					</div>
-					
-					<!--
-					
-					<div class="box color-background-1  center-block">
-						<div class="box-icon circle-bg">
-							<img style="padding-top: 30px; height: 90px;" src="http://www.lukoil-garant.ru/bitrix/templates/main/img/man_1.png">
-						</div>
-						<div class="info">
-							<h4 class="text-center">2015 год</h4>
-							<p>
-							Бюджет ПФР уже сегодня испытывает
-							серьезное давление: выплаты
-							пенсий сегодняшним пенсионерам
-							формируются из отчислений 1,5
-							работников (на одного пенсионера), в
-							то время как еще в 1990 году их было
-							5-7 человек 
-							</p>
-						</div>
-					</div>
-					
-					-->
-					
 				</div>	
 				<div class="col-md-4 col-sm-6">
 					<div class="box-static center-block">
@@ -238,7 +218,7 @@
 					<p class="p-italy">
 					"По задумке государства, львиная доля Вашей пенсии образуется не от Вашей зарплаты, а от начисленных на нее процентов. Такая практика принята во всех развитых странах." 
 					</p>
-					<p class="p-italy" style="color: #333; margin-bottom: 40px;"> — Екатерина, финансовый аналитик, Москва </p>
+					<p class="p-general p-italy" style="color: #333; margin-bottom: 40px;"> — Екатерина, финансовый аналитик, Москва </p>
 				</div>
 				<div class="col-md-6">
 					<div class="copy">
@@ -295,6 +275,7 @@
 						В любом случае функционирование каждого НФП  имеет гарантийное обеспечение государства, 
 						однако не помешает знать некоторые нюансы. 
 						</p>
+						<img src="logo/30.png" alt="" class="copy hidden-xs">
 					</div>	
 				</div>
 				<div class="col-md-4">
@@ -351,83 +332,6 @@
 			</div>		
 		</div>
 	</section>
-	
-	<!--
-	
-	<section>
-		<div class="container">
-			<h2 class="text-center">Приемущества 
-			</h2>
-			<div class="row">
-				<div class="col-md-4 col-sm-6">
-					<div class="talkbubble copy">
-						<div id="talkbubble"><i class="fa fa-user-plus"></i></div>
-						<h4 class="text-center" >
-						Возможность указать правопреемника
-						</h4>
-					</div>
-				</div>	
-				<div class="col-md-4 col-sm-6">
-					<div class="talkbubble copy">
-						<div id="talkbubble"><i class="fa fa-shield"></i></div>
-						<h4 class="text-center">
-						Государственный контроль
-						</h4>				
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6">
-					<div class="talkbubble copy">
-						<div id="talkbubble"><i class="fa fa-thumbs-o-up"></i></div>
-						<h4 class="text-center">
-						Индивидуальный договор
-						</h4>				
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6">
-					<div class="talkbubble copy">
-						<div id="talkbubble"><i class="fa fa-suitcase"></i></div>
-						<h4 class="text-center">
-						Возможность переходов 
-						</h4>				
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6">
-					<div class="talkbubble copy">
-						<div id="talkbubble"><i class="fa fa-money"></i></div>
-						<h4 class="text-center">
-						Высокая доходность
-						</h4>
-					</div>
-				</div>
-				<div class="col-md-4 col-sm-6">
-					<div class="talkbubble copy">
-						<div id="talkbubble"><i class="fa fa-line-chart"></i></div>
-						<h4 class="text-center">
-						Хорошая статистика
-						</h4>				
-					</div>
-				</div>
-			</div>		
-		</div>
-	</section>
-	
-	
-	
-	<section class="color-primary-0 heading">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-9">
-					<h3 class="heading-block"> Появились вопросы? </h3>
-					<p>
-					Наши специалисты всегда готовы помочь 
-					</p>	
-				</div>				
-			</div>		
-		</div>
-	</section>
-	
-	-->
-	
 	<section>
 		<div class="container">
 			<h2 class="text-center"> Можно ли поменять нпф? </h2>
@@ -442,7 +346,7 @@
 						<ul class="list-style">
 							<li> Расторгать договор с предыдущим фондом нет необходимости; </li>
 							<li> Доход, который принес Вам предыдущий НФП, не теряется; </li>
-							<li> Сегда можно вернуться обратно – Вы можете менять НФП 1 раз в год </li>
+							<li> Всегда можно вернуться обратно – Вы можете менять НФП 1 раз в год </li>
 							<li> Никакой бумажной волокиты на Вашей работе – все перестановки отслеживаются в  ПФР. </li>
 						</ul>
 					</div>
@@ -595,74 +499,6 @@
 			</div>
 		</div>	
 	</section>
-	
-	<!--
-	<section>
-		<div class="container">
-			<h3 class="text-center">Преимущества НПФ перед ПФР и ЧУК</h3>
-			<div class="row">
-				<div class="col-md-12">
-					<table class="table table-bordered">
-						<thead>
-							<tr>
-							  <td>Основные характеристики</td>
-							  <td>ПФР</td>
-							  <td>УК</td>
-							  <td>НПФ</td>
-							  <td>Комментарий по НПФ</td>
-							</tr>
-						</thead>
-						<tbody class="table-list">
-							<tr>
-								<td>Субъективное доверие граждан государственной системе</td>
-								<td style="width: 50px;"><i class="fa fa-check color-secondary-3-1"></i></td>
-								<td style="width: 50px;"><i class="fa fa-times"></i></td>
-								<td style="width: 50px;"><i class="fa fa-times"></i></td>
-								<td class="panel-heading" role="tab" id="headingOne" style="width: 500px;">
-								   <h4 class="panel-title">
-										<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-											Нажмите чтобы увидеть комментарий
-										</a>
-									</h4>
-									<div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
-										<div class="panel-body">
-											По данным на начало 2013г выбор граждан следующий: <br/>
-											ПФР = 75% (56 млн.чел)<br/>
-											НПФ = 25% (20 млн. чел)
-										</div>
-									</div>	
-								</td>
-							</tr>
-							<tr>
-								<td>Высокая надежность</td>
-								<td style="width: 50px;"><i class="fa fa-check color-secondary-3-1"></i></td>
-								<td style="width: 50px;"><i class="fa fa-times"></i></td>
-								<td style="width: 50px;"><i class="fa fa-check color-secondary-3-1"></i></td>
-								<td class="panel-heading" role="tab" id="headingTwo" style="width: 500px;">
-								   <h4 class="panel-title">
-										<a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-											Нажмите чтобы увидеть комментарий
-										</a>
-									</h4>
-									<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="collapseTwo">
-										<div class="panel-body">
-											Все вопросы деятельности ПФР и НПФ четко прописаны законодательно 
-											и жестко контролируются госорганами на постоянной основе. Законодательно 
-											установлен исчерпывающий список максимально надежных инструментов для инвестирования 
-											денежных средств, перечень надежных УК с которыми можно работать НПФ
-										</div>
-									</div>	
-								</td>
-							</tr>
-						</tbody>		
-					</table>
-				</div>
-			</div>
-		</div>		
-	</section>
-	
-	-->
-	
 	<footer class="color-primary-3">
 		<div class="container">
 			<div class="row">
@@ -702,4 +538,6 @@
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
    <!-- Include all compiled plugins (below), or include individual files as needed -->
    <script src="bootstrap/js/bootstrap.min.js"></script>
+	<!-- Prefix -->
+   <script src="prefix/prefixfree.min.js"></script>
 </body>	

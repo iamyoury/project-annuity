@@ -30,13 +30,12 @@
           </ul>
           <ul class="nav navbar-nav navbar-right hidden-sm">
             <li><p class="text-center"><i class="fa fa-phone"></i>8 800 505-43-05</p></li>
-            <li><div class="col-md-12"><button type="button" class="btn btn-red" data-toggle="modal" data-target="#myModal"> Заказать звонок </button></div></li>
+            <li><div class="col-md-12"><button type="button" class="btn btn-red center-block" data-toggle="modal" data-target="#myModal"> Заказать звонок </button></div></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>	
 	</header>
 	<section class="color-primary-0" id="rating">
-		
 			<div class="container">
 				<div class="col-md-6 col-md-offset-6">
 					<div class="fbox copy">
@@ -52,55 +51,6 @@
 	</section>
 	
 	<!-- 
-	<section>
-		<div class="container">
-			<h3 class="text-center">Лучшие НПФ</h3>
-			<div class="row text-center">
-			    <div class="col-md-3 col-sm-6">
-			      <ul class="pricing-table list-unstyled">
-			        <li class="title color-primary-3"><h4>Газфонд</h4></li>
-			        <li class="bullet-item"> <small> Объём накоплений</small> 61,600,124,000 р.</li>
-			        <li class="bullet-item"> <small> Надежность </small> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></li>
-			        <li class="bullet-item"> <small> Доля рынка </small> 5,61%</li>
-			        <li class="bullet-item"> <small> Среднегодовая доходность </small> 8,54%</li>
-			        <li class="button-item"><a href="#">Стать клиентом</a></li>
-			      </ul>
-			    </div>
-			    <div class="col-md-3 col-sm-6">
-			      <ul class="pricing-table list-unstyled">
-			        <li class="title color-primary-3"><h4>Европейский <br/>пенсионный фонд</h4></li>
-			        <li class="bullet-item">	<small> Объём накоплений</small> 10,331,000,000 р.</li>
-			        <li class="bullet-item"> <small> Надежность </small> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i> </li>
-			        <li class="bullet-item"> <small> Доля рынка </small> 1,38%</li>
-			        <li class="bullet-item"> <small> Среднегодовая доходность </small>12,43%</li>
-			        <li class="button-item"><a href="#">Стать клиентом</a></li>
-			      </ul>
-			    </div>
-			    <div class="col-md-3 col-sm-6">
-			      <ul class="pricing-table list-unstyled">
-			        <li class="title color-primary-3"><h4>Национальный НПФ</h4></li>
-			        <li class="bullet-item"> <small> Объём накоплений</small> 13,758,870,64 р.</li>
-			        <li class="bullet-item"> <small> Надежность </small> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></li>
-			        <li class="bullet-item"> <small> Доля рынка </small> 1,20%</li>
-			        <li class="bullet-item"> <small> Среднегодовая доходность </small></li>
-			        <li class="button-item"><a href="#">Стать клиентом</a></li>
-			      </ul>
-			    </div>
-			    <div class="col-md-3 col-sm-6">
-			      <ul class="pricing-table list-unstyled">
-			        <li class="title color-primary-3"><h4>Солнце. Жизнь. Пенсии</h4></li>
-			        <li class="bullet-item"> <small> Объём накоплений</small>  34,322,861,61 р.</li>
-			        <li class="bullet-item"> <small> Надежность </small> <i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></li>
-			        <li class="bullet-item"> <small> Доля рынка </small>2,99%</li>
-			        <li class="bullet-item"> <small> Среднегодовая доходность </small></li>
-			        <li class="button-item"><a href="#">Стать клиентом</a></li>
-			      </ul>
-			    </div>
-			</div>
-	</section>
-
-	
-	
 	<section class="heading">
 		<div class="container">
 			<div class="row">
@@ -332,7 +282,7 @@
 		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
 		    				<td> 49,862,700 ₽ </td>
 		    				<td>8.36%</td>
-		    				<td><a href="#"> Стать клиентом </a></td>
+		    				<td><button type="button" class="btn btn-blue" data-toggle="modal" data-target=""> Стать клиентом </button></td>
 		  				</tr>
 		  				<tr>
 		    				<td>
@@ -344,7 +294,7 @@
 		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
 		    				<td> 43,025,400 ₽ </td>
 		    				<td>8.36%</td>
-		    				<td><a href="#"> Стать клиентом </a></td>
+		    				<td><button type="button" class="btn btn-blue" data-toggle="modal" data-target=""> Стать клиентом </button></td>
 		  				</tr>
 		  				<tr>
 		    				<td>
@@ -356,7 +306,7 @@
 		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
 		    				<td> 50,445,639 ₽ </td>
 		    				<td>8.36%</td>
-		    				<td><a href="#"> Стать клиентом </a></td>
+		    				<td><button type="button" class="btn btn-blue" data-toggle="modal" data-target=""> Стать клиентом </button></td>
 		  				</tr>
 		  				<tr>
 		    				<td>
@@ -368,7 +318,7 @@
 		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></td>
 		    				<td> 35,676,165 ₽ </td>
 		    				<td>8.36%</td>
-		    				<td><a href="#"> Стать клиентом </a></td>
+		    				<td><button type="button" class="btn btn-blue" data-toggle="modal" data-target=""> Стать клиентом </button></td>
 		  				</tr><tr>
 		    				<td>
 		    					<div class="brand">
@@ -379,7 +329,7 @@
 		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></td>
 		    				<td> 3,587,900  ₽ </td>
 		    				<td>8.36%</td>
-		    				<td><a href="#"> Стать клиентом </a></td>
+		    				<td><button type="button" class="btn btn-blue" data-toggle="modal" data-target=""> Стать клиентом </button></td>
 		  				</tr>
 		  				<tr>
 		    				<td>
@@ -391,7 +341,7 @@
 		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
 		    				<td> 4,133,400  ₽ </td>
 		    				<td>8.36%</td>
-		    				<td><a href="#"> Стать клиентом </a></td>
+		    				<td><button type="button" class="btn btn-blue" data-toggle="modal" data-target=""> Стать клиентом </button></td>
 		  				</tr>
 		  				<tr>
 		    				<td>
@@ -403,7 +353,7 @@
 		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></td>
 		    				<td> 4,289,000 ₽ </td>
 		    				<td>8.36%</td>
-		    				<td><a href="#"> Стать клиентом </a></td>
+		    				<td><button type="button" class="btn btn-blue" data-toggle="modal" data-target=""> Стать клиентом </button></td>
 		  				</tr><tr>
 		    				<td>
 		    					<div class="brand">
@@ -414,7 +364,7 @@
 		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
 		    				<td> 5,303,100 ₽ </td>
 		    				<td>8.36%</td>
-		    				<td><a href="#"> Стать клиентом </a></td>
+		    				<td><button type="button" class="btn btn-blue" data-toggle="modal" data-target=""> Стать клиентом </button></td>
 		  				</tr>
 		  				<tr>
 		    				<td>
@@ -426,7 +376,7 @@
 		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></td>
 		    				<td> 6,651,600 ₽ </td>
 		    				<td>8.36%</td>
-		    				<td><a href="#"> Стать клиентом </a></td>
+		    				<td><button type="button" class="btn btn-blue" data-toggle="modal" data-target=""> Стать клиентом </button></td>
 		  				</tr>
 		  				<tr>
 		    				<td>
@@ -438,7 +388,7 @@
 		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></td>
 		    				<td> 6,699,200 ₽ </td>
 		    				<td>8.36%</td>
-		    				<td><a href="#"> Стать клиентом </a></td>
+		    				<td><button type="button" class="btn btn-blue" data-toggle="modal" data-target=""> Стать клиентом </button></td>
 		  				</tr><tr>
 		    				<td>
 		    					<div class="brand">
@@ -449,7 +399,7 @@
 		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></td>
 		    				<td> 7,373,500 ₽ </td>
 		    				<td>8.36%</td>
-		    				<td><a href="#"> Стать клиентом </a></td>
+		    				<td><button type="button" class="btn btn-blue" data-toggle="modal" data-target=""> Стать клиентом </button></td>
 		  				</tr>
 		  				<tr>
 		    				<td>
@@ -461,7 +411,7 @@
 		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></td>
 		    				<td> 7,548,000 ₽ </td>
 		    				<td>8.36%</td>
-		    				<td><a href="#"> Стать клиентом </a></td>
+		    				<td><button type="button" class="btn btn-blue" data-toggle="modal" data-target=""> Стать клиентом </button></td>
 		  				</tr>
 		  				<tr>
 		    				<td>
@@ -473,7 +423,7 @@
 		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></td>
 		    				<td> 9,091,400 ₽ </td>
 		    				<td>8.36%</td>
-		    				<td><a href="#"> Стать клиентом </a></td>
+		    				<td><button type="button" class="btn btn-blue" data-toggle="modal" data-target=""> Стать клиентом </button></td>
 		  				</tr>
 		  				<tr>
 		    				<td>
@@ -485,7 +435,7 @@
 		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></td>
 		    				<td> 10,704,100 ₽ </td>
 		    				<td>8.36%</td>
-		    				<td><a href="#"> Стать клиентом </a></td>
+		    				<td><button type="button" class="btn btn-blue" data-toggle="modal" data-target=""> Стать клиентом </button></td>
 		  				</tr>
 		  				<tr>
 		    				<td>
@@ -497,7 +447,7 @@
 		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i><i class="fa fa-star-o"></i></td>
 		    				<td> 9,124,300 ₽ </td>
 		    				<td>8.36%</td>
-		    				<td><a href="#"> Стать клиентом </a></td>
+		    				<td><button type="button" class="btn btn-blue" data-toggle="modal" data-target=""> Стать клиентом </button></td>
 		  				</tr>
 		  				<tr>
 		    				<td>
@@ -509,7 +459,7 @@
 		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></td>
 		    				<td> 15,602,598 ₽ </td>
 		    				<td>8.36%</td>
-		    				<td><a href="#"> Стать клиентом </a></td>
+		    				<td><button type="button" class="btn btn-blue" data-toggle="modal" data-target=""> Стать клиентом </button></td>
 		  				</tr>
 		  				<tr>
 		    				<td>
@@ -521,7 +471,7 @@
 		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i></td>
 		    				<td> 12,547,400 ₽ </td>
 		    				<td>8.36%</td>
-		    				<td><a href="#"> Стать клиентом </a></td>
+		    				<td><button type="button" class="btn btn-blue" data-toggle="modal" data-target=""> Стать клиентом </button></td>
 		  				</tr>
 		  				<tr>
 		    				<td>
@@ -533,7 +483,7 @@
 		    				<td><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star"></i><i class="fa fa-star-o"></i></td>
 		    				<td> 23,338,800 ₽ </td>
 		    				<td>8.36%</td>
-		    				<td><a href="#"> Стать клиентом </a></td>
+		    				<td><button type="button" class="btn btn-blue" data-toggle="modal" data-target=""> Стать клиентом </button></td>
 		  				</tr>
 		  			</tbody>
 				</table>
@@ -579,4 +529,6 @@
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
    <!-- Include all compiled plugins (below), or include individual files as needed -->
    <script src="bootstrap/js/bootstrap.min.js"></script>
+   <!-- Prefix -->
+   <script src="prefix/prefixfree.min.js"></script>
 </body>

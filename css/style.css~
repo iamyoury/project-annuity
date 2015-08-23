@@ -228,6 +228,10 @@ hr {
 	margin-top: -50px;
 	max-width: 490px;
 }
+.man-rating {
+	position: relative;
+	margin-bottom: 0px;
+}
 .center-text {
 	padding-bottom: 48px;
 	padding-top: 48px;
@@ -350,13 +354,16 @@ hr {
 .title {
 	text-align: left;
 	min-height: 150px;
-	font-size: 1.1em;
+	font-size: 16px;
+	font-family: 'Ubuntu', sans-serif;
 	padding: 20px;
 }
 .pricing-table {
 	width: 360px;	
 	background: #fff;
 	border-radius: 15px;
+	-webkit-box-shadow: 0px 1px 7px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 1px 7px rgba(0,0,0,0.3);
 	box-shadow: 0px 1px 7px rgba(0,0,0,0.3);
 	overflow: hidden;
 	margin: 0 auto;
@@ -465,7 +472,9 @@ header i {
   border-radius: 5px;
   background: #6699CC;
   background-image: linear-gradient( rgba(255,255,255,0.2), transparent);
-  box-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 4px rgba(0,0,0,0.5);
   vertical-align: middle;
   transition: all 0.2s ease;
 }
@@ -475,7 +484,9 @@ header i {
   border: 2px solid #fff;
   border-radius: 5px;
   background: #6699CC; 
-  box-shadow: 0px 0px 5px rgba(0,0,0,0.1);
+  -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,0.1)
+	-moz-box-shadow: 0px 0px 5px rgba(0,0,0,0.1)
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.1)
   vertical-align: middle;
 }
 .btn-choice {
@@ -509,17 +520,21 @@ header i {
   border-radius: 5px;
   background: #cc3333;
   background-image: linear-gradient( rgba(255,255,255,0.2), transparent);
-  box-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+	-moz-box-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+	box-shadow: 0px 0px 4px rgba(0,0,0,0.5);
   vertical-align: middle;
   transition: all 0.2s ease;
 }
 .btn-red:focus {
-  color: #fff;
-  letter-spacing: 1px;
-  border: 2px solid #fff;
-  border-radius: 5px;
-  background: #cc3333; 
-  box-shadow: 0px 0px 5px rgba(0,0,0,0.5);
+	color: #fff;
+	letter-spacing: 1px;
+	border: 2px solid #fff;
+	border-radius: 5px;
+	background: #cc3333; 
+	-webkit-box-shadow:0px 0px 5px rgba(0,0,0,0.1)
+	-moz-box-shadow: 0px 0px 5px rgba(0,0,0,0.1)
+	box-shadow: 0px 0px 5px rgba(0,0,0,0.1)
   vertical-align: middle;
 }.box {
   	padding: 10px 25px;
@@ -720,7 +735,7 @@ a.list-group-item {
 }
 .f-box {
 	width: 100%;
-	min-height: 222px;
+	min-height: 216px;
 	
 }
 .name-fond {
@@ -1164,5 +1179,7 @@ label {
 	background: #fff;
 	margin-bottom: 40px;
 	border-radius: 15px;
+	-webkit-box-shadow: 0px 1px 7px rgba(0,0,0,0.3);
+	-moz-box-shadow: 0px 1px 7px rgba(0,0,0,0.3);
 	box-shadow: 0px 1px 7px rgba(0,0,0,0.3);
 }
