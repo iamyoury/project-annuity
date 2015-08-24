@@ -228,10 +228,6 @@ hr {
 	margin-top: -50px;
 	max-width: 490px;
 }
-.man-rating {
-	position: relative;
-	margin-bottom: 0px;
-}
 .center-text {
 	padding-bottom: 48px;
 	padding-top: 48px;
@@ -876,11 +872,13 @@ a.list-group-item {
 	border-bottom: 1px solid #cc3333;
 	margin-bottom: 20px;
 }
-.box-head span {
+.box-head div {
+	display: inline-block;
+	height: 30px;
 	font-size: 1.1em;
 	text-transform: uppercase;	
 	letter-spacing: 1px;
-	line-height: 30px;
+	line-height: 28px;
 	border-bottom: 3px solid #cc3333;
 }
 .table-responsive {

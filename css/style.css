@@ -324,7 +324,6 @@ hr {
 }    
 .fbox {
 	position: relative;
-	max-width: 560px;
 	padding: 0 0 0 55px;
 	margin-bottom: 30px;
 }
@@ -872,11 +871,13 @@ a.list-group-item {
 	border-bottom: 1px solid #cc3333;
 	margin-bottom: 20px;
 }
-.box-head span {
+.box-head div {
+	display: inline-block;
+	height: 30px;
 	font-size: 1.1em;
 	text-transform: uppercase;	
 	letter-spacing: 1px;
-	line-height: 30px;
+	line-height: 28px;
 	border-bottom: 3px solid #cc3333;
 }
 .table-responsive {

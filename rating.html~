@@ -4,6 +4,7 @@
 	<title> Рейтинги НПФ </title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/style.css">
@@ -127,7 +128,7 @@
 								    <div class="modal-content">
 								      <div class="modal-header">
 								        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-								        <h3 class="text-center modal-name">  ОАО «НПФ ГАЗФОНД» </h3>
+								        <h3 class="text-center modal-name">   «Европейский ПФ» (АО) </h3>
 								      </div>
 								      <div class="modal-body">
 								      	
@@ -489,6 +490,27 @@
 				</table>
 			</div>	
 		</div>
+	</section>
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<p class="p-small">
+						Источник: Банк России, Росстат, ПФР, АСВ и открытые интернет ресурсы.
+					</p>
+				</div>			
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="fbox copy">
+						<div class="fbox-icon"> <i class="fa fa-info-circle color-icon-1"></i> </div>
+						<p class="p-general">
+						Администрация сайта просит НПФ, вступивших в систему гарантирования, дополнительно информировать нас  для оперативного добавления в рейтинг.
+						</p>
+					</div>				
+				</div>			
+			</div>		
+		</div>	
 	</section>
 	<footer class="color-primary-3">
 		<div class="container">

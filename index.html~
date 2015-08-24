@@ -94,7 +94,7 @@
 				<div class="col-md-6">
 					<div class="list-box copy">
 						<div class="box-head">
-								<span> Зачем люди выбирают НПФ </span>
+								<div> Зачем люди выбирают НПФ </div>
 						</div>
 						<div class="list-row">
 							<div class="number-list number ts">  1  </div>
@@ -133,7 +133,7 @@
 				<div class="col-md-6">
 						<div class="list-box copy">
 							<div class="box-head">
-									<span> Почему есть те кто еще думает </span>
+									<div> Почему есть те кто еще думает </div>
 							</div>
 						<div class="list-row">
 							<div class="number-list number ts">  1  </div>
