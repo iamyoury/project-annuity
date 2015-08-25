@@ -182,11 +182,13 @@
 						</p>	
 					</div>	
 					<div class="box-head">
-						<span> График доходности </span>
+						<div> График доходности </div>
 					</div>
 					<p class="p-small"> статистика 2009 – 2014 г. </p>	
 					<div class="f-box center-block">
-						<div class="name-fond">
+					
+					<div class="row">
+						<div class="name-fond col-md-5">
 							
 							<div class="name-row">
 								Государственный фонд
@@ -199,7 +201,9 @@
 							</div>
 							
 						</div>
-						<div class="grafic-fond">
+						
+						
+						<div class="grafic-fond col-md-7">
 							<div class="r-line"></div>
 							
 							<div class="graphic-row">
@@ -214,7 +218,8 @@
 							<div class="bott-row">
 								 Инфляция
 							</div>	
-						</div>		
+						</div>	
+						</div>	
 					</div>
 					<p class="p-italy">
 					"По задумке государства, львиная доля Вашей пенсии образуется не от Вашей зарплаты, а от начисленных на нее процентов. Такая практика принята во всех развитых странах." 
@@ -283,7 +288,7 @@
 					<div class="copy center-block">
 						
 							<div class="box-head">
-								<span> Внутренний контроль </span>
+								<div> Внутренний контроль </div>
 							</div>
 							<ul class="list-unstyled list-style">
 								<li> Попечительский совет </li>
@@ -293,7 +298,7 @@
 						
 						
 							<div class="box-head">
-								<span> Государственный контроль </span>
+								<div> Государственный контроль </div>
 							</div>
 							<ul class="list-unstyled list-style">
 								<li> Министерство финансев РФ </li>
@@ -310,7 +315,7 @@
 					<div class="copy center-block">
 						
 							<div class="box-head">
-								<span> Клиентский контроль </span>
+								<div> Клиентский контроль </div>
 							</div>
 							<ul class="list-unstyled list-style">
 								<li> Вкладчиков </li>
@@ -320,7 +325,7 @@
 					
 						
 							<div class="box-head">
-								<span> Независимый контроль </span>
+								<div> Независимый контроль </div>
 							</div>
 							<ul class="list-unstyled list-style">
 								<li> Ежедневный контроль депозитария </li>

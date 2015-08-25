@@ -281,21 +281,21 @@ hr {
 	font-family: 'Ubuntu', sans-serif;
 	color: #333333;
 	background-color: #fff;
-	font-size: 28px;
-	height: 150px;
-	width: 150px; 
+	font-size: 24px;
+	height: 130px;
+	width: 130px; 
   }
 
 .quote-1 {
 	position: relative;
 	line-height: 60px;
-	padding-bottom: 45px;
-	padding-top: 45px;
+	padding-bottom: 35px;
+	padding-top: 35px;
   }
 .man {
 	background-size: contain;
 	background-repeat: no-repeat;
-	background-size: 100px;
+	background-size: 80px;
 	background-position: center center;
 }
 .man-0 {
@@ -316,8 +316,8 @@ hr {
 .quote-2 {
 	margin-left: -2rem;
 	line-height: 30px;
-	padding-bottom: 60px;
-	padding-top: 60px;	
+	padding-bottom: 50px;
+	padding-top: 50px;	
 }
 .quote-2 p {
     padding: 2rem; 
@@ -337,9 +337,18 @@ hr {
 	left: 0;
 }
 .bullet-item {
-	padding: 10px;
+	position: relative;
+	padding: 10px 10px 10px 38px;
 	border-bottom: 1px dotted #6699CC;
 	text-align: left;
+}
+.bullet-icon {
+	display: block;
+	position: absolute;
+	width: 38px;
+	padding: 10px;
+	top: 0;
+	left: 0;
 }
 .button-item {
 	min-height: 68px;
@@ -354,7 +363,8 @@ hr {
 	padding: 20px;
 }
 .pricing-table {
-	width: 360px;	
+	width: 100%;
+	max-width: 360px;	
 	background: #fff;
 	border-radius: 15px;
 	-webkit-box-shadow: 0px 1px 7px rgba(0,0,0,0.3);
@@ -848,6 +858,19 @@ a.list-group-item {
 	color: #CCCCCC;
 	font-weight: lighter;
 }
+.table-number tbody tr .number-td {
+	border-top: 0px;
+	border-bottom: 1px solid #ccc;
+	font-size: 60px;
+	font-family: 'Ubuntu', sans-serif;
+	line-height: 70px;
+	color: #CCCCCC;
+	font-weight: lighter;
+}
+.table-number tbody tr .text-td {
+	border-top: 0px;
+	border-bottom: 1px solid #ccc;
+}
 .shield {
 	margin-bottom: 48px;
 	margin-top: 48px;
@@ -1179,4 +1202,35 @@ label {
 	-webkit-box-shadow: 0px 1px 7px rgba(0,0,0,0.3);
 	-moz-box-shadow: 0px 1px 7px rgba(0,0,0,0.3);
 	box-shadow: 0px 1px 7px rgba(0,0,0,0.3);
+}
+/* ----------- iPhone 4 and 4S ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+  	body {
+		font-size: 0.8em;  	
+  	}
+}
+
+/* Portrait */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: portrait) {
+  	.box-head div {
+		font-size: 13px;  	
+  	}
+}
+
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 480px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) {
+
 }
